@@ -9,7 +9,7 @@
     --primary-font:"Archivo", sans-serif;
     --secondary-font:"Barrio", system-ui;
     --primary-color: #12535C;
-    --secondary-color: #f9c80e; 
+    --secondary-color: #f9c403e8; 
     --tertiary-color: #43bccd;
     }
 
@@ -49,6 +49,7 @@ p {
  
 main {
     flex: 1 0 auto;
+    background-color: var(--secondary-color);
 }
 
 /* Header Styling */
@@ -57,7 +58,7 @@ header {
     background-color: var(--secondary-color);
     width: 100%;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
     font-size: 30px;
 }
@@ -73,7 +74,7 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color: whitesmoke;
 }
 
 nav li {
@@ -88,11 +89,23 @@ nav li {
     padding-right: 20px;
 }
 
+/* Hero Image */
+
 /* Footer Styling */
 footer {
     background-color: var(--tertiary-color);
+    padding: 20px;
+    vertical-align: ;
 }
 
+#info {
+    display: flex;
+    vertical-align: baseline;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2px;
+}
 /* Media Query to ensure header and nav font is smaller on mobile screens (320px) */
 
 @media screen and (min-width: 320px ){
@@ -124,6 +137,20 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+    nav a {
+        margin: 0.5em;
+    }
+}
+
+/* Media Query to ensure header font is smaller on tablet screens (768px) */
+
+@media screen and (min-width: 1200px ){
+    header {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
     nav a {
         margin: 0.5em;
     }
