@@ -1,0 +1,71 @@
+/* Google Fonts Import - Barrio */
+@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+
+/* Google Fonts Import - Archivo */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --primary-font:"Archivo", sans-serif;
+    --secondary-font:"Barrio", system-ui;
+    --primary-color: #12535C;
+    --secondary-color: #f9c80e; 
+    --tertiary-color: #43bccd;
+    }
+
+/* Asterisk wildcard selector: override default styles added by the browser */
+
+* {
+    /* This is code taken from the Love Running Project */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+
+/* General Styling Rules */
+
+body {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: var(--secondary-font);
+    font-size: 400%;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--primary-font);
+    font-size: 100%;
+    color: var(--primary-color);
+}
+
+/* Header Styling */
+
+header {
+    background-color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header a {
+    color: var(--primary-color);
+    text-decoration: none;
+    
+}
+
+nav a {
+    color: var(--primary-color);
+    margin: 1em;
+}
+
+nav a:hover {
+    color: var(--tertiary-color);
+}
