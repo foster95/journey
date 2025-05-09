@@ -65,7 +65,6 @@ header {
 header a {
     color: var(--primary-color);
     text-decoration: none;
-    
 }
 
 nav a {
@@ -89,15 +88,6 @@ nav li {
     padding-right: 20px;
 }
 
-/* Navbar styling for drop down toggle - snipped taken from Love Running but modified */
-
-nav {
-    position: absolute;
-    background-color: var(--secondary-color);
-    width: 100%;
-    display: none;
-}
-
 /* Footer Styling */
 footer {
     background-color: var(--tertiary-color);
@@ -113,7 +103,15 @@ footer {
 
 @media screen and (min-width: 320px) {
     nav a {
-        margin: 0.3em;
+        margin: 0.09em;
+    }
+
+    .clicked {
+        border-radius: 25px;
+        background: var(--tertiary-color);
+        padding: 6px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
