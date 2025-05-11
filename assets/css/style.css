@@ -160,18 +160,23 @@ footer {
     color: var(--secondary-color)
 }
 
-footer li {
-    font-size: 17px;
+#footer-info {
     display: flex;
     flex-direction: column;
-    flex-wrap: row;
-    text-align: center;
+    gap: 8px;
+  }
+  #footer-info li {
     list-style: none;
-}
-
-#info .fa-brands {
-    font-size: 25px;
-}
+    text-align: center;
+  }
+  #footer-info li.social {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 5px;
+    font-size: 30px;
+  }
 
 /* Media Query for tablet screens (768px) */
 
@@ -214,6 +219,10 @@ footer li {
     main {
         margin-top: 225px;
     }
+
+    #hero-image {
+        height: 430px;
+    }
     
     header {
         height: 230px;
@@ -222,10 +231,14 @@ footer li {
     header #brand {
         font-size: 150px;
     }
-}
-
-@media screen and (min-width: 1200px) {
     nav a {
         margin: 0.5em;
     }
 }
+
+/* Media Query for large screens (1400px) */
+
+@media screen and (min-width: 1400px ){
+
+    #hero-image {
+        height: 500px;
