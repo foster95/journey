@@ -178,6 +178,10 @@ footer {
     font-size: 30px;
   }
 
+  #footer-info li.social a{
+    color: var(--secondary-color);
+  }
+
 /* Media Query for tablet screens (768px) */
 
 @media screen and (min-width: 768px ){
