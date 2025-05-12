@@ -1,287 +1,336 @@
 /* Google Fonts Import - Barrio */
-@import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barrio&display=swap");
 
 /* Google Fonts Import - Archivo */
-@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS Variables */
 :root {
-    --primary-font:"Archivo", sans-serif;
-    --secondary-font:"Barrio", system-ui;
-    --primary-color: #12535C;
-    --secondary-color: #fac403e8; 
-    --tertiary-color: #43bccd;
-    }
+  --primary-font: "Archivo", sans-serif;
+  --secondary-font: "Barrio", system-ui;
+  --primary-color: #12535c;
+  --secondary-color: #fac403e8;
+  --tertiary-color: #43bccd;
+}
 
 /* Asterisk wildcard selector: override default styles added by the browser */
 
 * {
-    /* This is code taken from the Love Running Project */
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}    
+  /* This is code taken from the Love Running Project */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /* General Styling Rules */
 
 body {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1 {
-    font-family: var(--secondary-font);
-    font-size: 45px;
-    color: var(--secondary-color);
-    text-align: center;
+  font-family: var(--secondary-font);
+  font-size: 45px;
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 h2 {
-    font-family: var(--secondary-font);
-    font-size: 35px;
-    text-align: center;
-    padding-top: 5px;
+  font-family: var(--secondary-font);
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5px;
 }
 
 p {
-    font-family: var(--primary-font);
-    color: var(--primary-color);
-    text-align: left;
-    padding-top: 3px;
-    padding-bottom: 10px;
-    font-size: 18px;
-    margin: 10px;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  margin: 10px;
 }
 
 /* This is code taken from the Love Running Project to ensure that footer stays at bottom of page */
- 
+
 main {
-    flex: 1 0 auto;
-    background-color: var(--secondary-color);
-    margin-top: 140px;
+  flex: 1 0 auto;
+  background-color: var(--secondary-color);
+  margin-top: 140px;
 }
 
 /* Header Styling */
 
 header {
-    background-color: var(--primary-color);
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    font-size: 30px;
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    height: 140px;
+  background-color: var(--primary-color);
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  font-size: 30px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  height: 140px;
 }
 
 header #brand {
-    font-size: 75px;
+  font-size: 75px;
 }
 
 header a {
-    color: var(--primary-color);
-    text-decoration: none;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 nav a {
-    color: var(--secondary-color);
-    margin: 0.07em;
-    font-size: 16px;
+  color: var(--secondary-color);
+  margin: 0.07em;
+  font-size: 16px;
 }
 
 nav a:hover {
-    color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
 nav li {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .clicked {
-    border-color: var(--secondary-color);
-    background-color: transparent;
-    border-radius: 25px;
-    color: var(--primary-color);
-    background-color: white;
-    padding: 6px;
-    padding-left: 12px;
-    padding-right: 12px;
+  border-color: var(--secondary-color);
+  background-color: transparent;
+  border-radius: 25px;
+  color: var(--primary-color);
+  background-color: white;
+  padding: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 /* Hero Image */
 
 #hero-image {
-   background: url(..//images/group-shot-hero-min.png);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
-   width: 100%;
-   height: 400px;
-   opacity: 70%;
-   
+  background: url(..//images/group-shot-hero-min.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  opacity: 70%;
 }
 
 /* Main body */
 #intro {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  width: 100%;
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-1 {
-    background: url(..//images/adults-group3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 305px;
-    height: 300px;
-    margin-left: 2px; 
+  background: url(..//images/adults-group3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 305px;
+  height: 300px;
+  margin-left: 2px;
 }
 
 #mission {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #numbers p {
-    text-align: center;
+  text-align: center;
 }
 
 /* Footer Styling */
 footer {
-    background-color: var(--primary-color);
-    padding: 20px;
-    color: var(--secondary-color)
+  background-color: var(--primary-color);
+  padding: 20px;
+  color: var(--secondary-color);
 }
 #footer-info {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  #footer-info li {
-    list-style: none;
-    text-align: center;
-  }
-  #footer-info li.social {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    justify-content: center;
-    margin-top: 5px;
-    font-size: 30px;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+#footer-info li {
+  list-style: none;
+  text-align: center;
+}
+#footer-info li.social {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 5px;
+  font-size: 30px;
+}
 
-  #footer-info li.social a{
-    color: var(--secondary-color);
-  }
+#footer-info li.social a {
+  color: var(--secondary-color);
+}
 
- /* Media Query for larger mobile screens (344px) */ 
+/* Media Query for larger mobile screens (344px) */
+
+/* Query to make image responsive */
 @media screen and (min-width: 344px) {
- .image-1 {
+  .image-1 {
     width: 331px;
-    height: 300px;}
- }
+    height: 300px;
+  }
+}
 
-  /* Media Query for small screens (576px) */ 
+/* Media Query for small screens (576px) */
 @media screen and (min-width: 576px) {
-    .image-1 {
-       width: 425px;
-       height: 300px;
-       margin-left: 4rem;
-    }
-    }
+  /* Query to make image responsive */
+  .image-1 {
+    width: 425px;
+    height: 300px;
+    margin-left: 4rem;
+  }
+}
 
-  /* Media Query for tablet screens (768px) */
+/* Media Query for tablet screens (768px) */
 
-@media screen and (min-width: 768px ){
+@media screen and (min-width: 768px) {
+  /* Query to push content under navigation bar */
+  main {
+    margin-top: 200px;
+  }
 
-    main {
-        margin-top: 200px;
-    }
-    
-    header {
-        height: 210px;
-    }
+  header {
+    height: 210px;
+  }
 
-    header #brand {
-        font-size: 130px;
-    }
+  header #brand {
+    font-size: 130px;
+  }
 
-    nav a {
-        font-size: 25px;
-        margin: 1em;
-    }
+  nav a {
+    font-size: 25px;
+    margin: 1em;
+  }
 
-    h2 {
-        font-size: 70px;
-    }
+  h2 {
+    font-size: 70px;
+  }
 
-    p {
-        font-size: 20px;
-    }
+  /* Query to increase font size for readability */
+  p {
+    font-size: 20px;
+  }
+  /* Query to make image responsive to larger screem */
+  .image-1 {
+    width: 427px;
+    height: 300px;
+    margin-left: 10rem;
+  }
 
-    .image-1 {
-        width: 427px;
-        height: 300px;
-        margin-left: 10rem;
-       }
+  /* Query to put numbers section into a row*/
+
+  #numbers {
+    display: flex;
+    flex-basis: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 12px;
+  }
 }
 
 /* Media Query for desktop screens (1200px) */
 
-@media screen and (min-width: 1200px ){
-    main {
-        margin-top: 225px;
-    }
+@media screen and (min-width: 1200px) {
+  /* Query to push content under navigation bar */
+  main {
+    margin-top: 225px;
+  }
 
-    p {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+  p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
 
-    #hero-image {
-        height: 430px;
-    }
-    
-    header {
-        height: 230px;
-    }
+  /* Query to make hero-image responsive to larger screens */
+  #hero-image {
+    height: 430px;
+  }
 
-    header #brand {
-        font-size: 150px;
-    }
-    nav a {
-        margin: 0.5em;
-    }
+  header {
+    height: 230px;
+  }
 
-    .image-1 {
-        margin-left: 23.5rem;
-       }
+  header #brand {
+    font-size: 150px;
+  }
+  nav a {
+    margin: 0.5em;
+  }
+
+  /* Query to make image responsive to larger screem */
+
+  .image-1 {
+    margin-left: 23.5rem;
+  }
+
+  /* Query to put numbers section into a row and look more appealing */
+
+  #numbers {
+    display: flex;
+    flex-basis: 50px;
+    padding-bottom: 30px;
+  }
+
+  #mission h2 {
+    margin-left: 5px;
+  }
+
+  #numbers p {
+    margin-top: 21px;
+    margin-right: 49px;
+  }
 }
 
 /* Media Query for large screens (1400px) */
 
-@media screen and (min-width: 1400px ){
+@media screen and (min-width: 1400px) {
+  /* Query to make hero image responsive to larger screens */
+  #hero-image {
+    height: 500px;
+  }
 
-    #hero-image {
-        height: 500px;
-    }
+  /* Query to make image responsive to larger screem */
+  .image-1 {
+    margin-left: 30rem;
+  }
 
-    .image-1 {
-        margin-left: 30rem;
-       }
+  /* Query to put numbers section into a row and look more appealing */
+  #mission h2 {
+    padding-top: 15px;
+  }
+
+  #numbers {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  #numbers p {
+    margin-right: 60px;
+  }
 }
