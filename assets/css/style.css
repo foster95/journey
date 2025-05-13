@@ -285,6 +285,16 @@ footer {
     padding-top: 3px;
     font-size: 20px;
   }
+
+  /* Footer styling to make font and icons larger on tablet screens */
+
+  #footer-info li {
+    font-size: 20px;
+  }
+
+  #footer-info li.social {
+    font-size: 33px;
+}
 }
 
 /* Media Query for desktop screens (1200px) */
@@ -316,7 +326,7 @@ footer {
     margin: 0.5em;
   }
 
-  /* Query to make image responsive to larger screem */
+  /* Query to make image responsive to larger screens */
 
   .image-1 {
     margin-left: 23.5rem;
@@ -344,6 +354,15 @@ footer {
     margin-top: 21px;
     margin-right: 35px;
   }
+
+  #footer-info li {
+    font-size: 22px;
+  }
+
+  #footer-info li.social {
+    font-size: 38px;
+}
+
 }
 
 /* Media Query for large screens (1400px) */
@@ -377,4 +396,5 @@ footer {
     margin-right: 60px;
     margin-top: 23px;
   }
+
 }
