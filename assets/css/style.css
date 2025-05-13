@@ -150,8 +150,7 @@ nav li {
   background-repeat: no-repeat;
   width: 305px;
   height: 300px;
-  margin-left: 2px;
-  margin-bottom: 10px;
+  margin: 1rem auto;
 }
 
 #mission {
@@ -254,11 +253,10 @@ footer {
     font-size: 75px;
   }
 
-  /* Query to make image responsive to larger screem */
+  /* Query to make image responsive to larger screens */
   .image-1 {
     width: 427px;
     height: 300px;
-    margin-left: 10rem;
   }
 
   /* Query to put numbers section into a row */
@@ -327,12 +325,6 @@ footer {
     margin: 0.5em;
   }
 
-  /* Query to make image responsive to larger screens */
-
-  .image-1 {
-    margin-left: 23.5rem;
-  }
-
   /* Query to put numbers section into a row and look more appealing */
 
   #numbers {
@@ -372,11 +364,6 @@ footer {
   /* Query to make hero image responsive to larger screens */
   #hero-image {
     height: 500px;
-  }
-
-  /* Query to make image responsive to larger screem */
-  .image-1 {
-    margin-left: 30rem;
   }
 
   /* Query to put numbers section into a row and look more appealing */
