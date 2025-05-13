@@ -164,6 +164,11 @@ nav li {
   padding-top: 5px;
 }
 
+/* Group Classes Styling */
+.grouped-classes {
+  text-align: center;
+}
+
 /* Footer Styling */
 
 footer {
@@ -281,6 +286,12 @@ footer {
     margin-left: 18px;
     padding-top: 3px;
     font-size: 20px;
+  }
+/* Class Group styling to stack on wider screens */
+  .grouped-classes {
+    display: flex; 
+    flex-direction: row;
+
   }
 
   /* Footer styling to make font and icons larger on tablet screens */
