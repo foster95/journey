@@ -94,7 +94,7 @@ nav a {
   color: var(--secondary-color);
   margin: 0.07em;
   font-size: 16px;
-  margin: 0 0.rem;
+  margin: 0 0.5rem;
 }
 
 nav a:hover {
@@ -121,7 +121,7 @@ nav li {
 /* Hero Image */
 
 #hero-image {
-  background: url(../images/group-shot-hero-min.jpg);
+  background: url(..//images/group-shot-hero-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +135,6 @@ nav li {
 #intro {
   display: flex;
   flex-direction: column;
-  margin-left: 5px;
   width: 100%;
 }
 
@@ -145,10 +144,10 @@ nav li {
 }
 
 .image-1 {
-  background: url(../images/adults-group3.jpg);
+  background: url(..//images/adults-group3.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  width: 305px;
+  width: 300px;
   height: 300px;
   margin: 1rem auto;
 }
@@ -211,7 +210,6 @@ footer {
   .image-1 {
     width: 425px;
     height: 300px;
-    margin-left: 4rem;
   }
 }
 
