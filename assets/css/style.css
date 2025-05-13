@@ -183,7 +183,7 @@ footer {
 #footer-info li.social {
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 2em;
   justify-content: center;
   margin-top: 5px;
   font-size: 30px;
