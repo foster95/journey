@@ -94,6 +94,7 @@ nav a {
   color: var(--secondary-color);
   margin: 0.07em;
   font-size: 16px;
+  margin: 0 0.rem;
 }
 
 nav a:hover {
@@ -120,7 +121,7 @@ nav li {
 /* Hero Image */
 
 #hero-image {
-  background: url(..//images/group-shot-hero-min.png);
+  background: url(../images/group-shot-hero-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +145,7 @@ nav li {
 }
 
 .image-1 {
-  background: url(..//images/adults-group3.png);
+  background: url(../images/adults-group3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 305px;
