@@ -169,6 +169,11 @@ nav li {
   text-align: center;
 }
 
+.grouped-classes h3 {
+  font-size: 42px;
+  text-decoration: underline;
+}
+
 /* Footer Styling */
 
 footer {
@@ -287,11 +292,13 @@ footer {
     padding-top: 3px;
     font-size: 20px;
   }
+
 /* Class Group styling to stack on wider screens */
   .grouped-classes {
     display: flex; 
     flex-direction: row;
-
+    justify-content: center;
+    gap: 2em;
   }
 
   /* Footer styling to make font and icons larger on tablet screens */
@@ -357,6 +364,13 @@ footer {
     margin-right: 35px;
   }
 
+  /* Class Group styling to stack into columns on wider screens */
+  .grouped-classes {
+    gap: 9em;
+  }
+
+  /* Footer styling to increase font size */
+
   #footer-info li {
     font-size: 22px;
   }
@@ -392,6 +406,11 @@ footer {
   #numbers p {
     margin-right: 60px;
     margin-top: 23px;
+  }
+
+  /* Class Group styling to stack into columns on wider screens */
+  .grouped-classes {
+    gap: 15em;
   }
 
 }
