@@ -230,6 +230,9 @@ footer {
   list-style: none;
   text-align: center;
 }
+
+/* Code Suggestion from Slack - Jaqui_Alumna_lead */
+
 #footer-info li.social {
   display: flex;
   flex-direction: row;
@@ -426,6 +429,13 @@ footer {
   #numbers p {
     margin-top: 21px;
     margin-right: 35px;
+  }
+
+  /* Make image size responsive to screens */
+  .image-2,
+  .image-3,
+  .image-4 {
+    width: 370px;
   }
 
   /* Class Group styling to stack on 1200px screens */
