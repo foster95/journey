@@ -64,7 +64,7 @@ main {
   flex: 1 0 auto;
   background-color: var(--secondary-color);
   margin-top: 140px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 
 /* Header Styling */
@@ -176,9 +176,9 @@ nav li {
 }
 
 .image-2 {
-  background: url(../images/childrens-group-2-min.jpg);
+  background: url(../images/childrens-group-2-min.jpg) no-repeat;
   background-position: center;
-  width: 300px;
+  width: auto;
   height: 290px;
   margin: 1rem auto;
 }
