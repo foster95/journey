@@ -166,11 +166,11 @@ nav li {
 }
 
 /* Group Classes Styling */
-.grouped-classes {
+.classes-details{
   text-align: center;
 }
 
-.grouped-classes h3 {
+.classes-details h3 {
   font-size: 42px;
   text-decoration: underline;
 }
@@ -215,6 +215,7 @@ nav li {
     list-style-type: none;
     margin-left: 30px;
     margin-right: 30px;
+    text-align: center;
   } 
 
 /* Footer Styling */
@@ -307,7 +308,7 @@ footer {
     font-size: 75px;
   }
 
-  /* Query to make image responsive to larger screens */
+  /* Query to make image responsive to tablet screens */
   .image-1 {
     width: 427px;
     height: 300px;
@@ -346,7 +347,7 @@ footer {
   .grouped-classes p {
     margin-left: 2px;
     margin-right: 2px;
-    text-align: center; 
+    text-align: justify; 
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
