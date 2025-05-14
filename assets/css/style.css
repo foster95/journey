@@ -199,6 +199,10 @@ nav li {
   margin: 1rem auto;
 }
 
+.grouped-classes .age {
+  text-align: center;
+}
+
   /* Style times section on classes page */
   #timetable li.details {
     background-color: white;
@@ -212,7 +216,6 @@ nav li {
     margin-left: 30px;
     margin-right: 30px;
   } 
-
 
 /* Footer Styling */
 
@@ -349,7 +352,6 @@ footer {
   }
 
   /* Make images on classes page responsive to screen size */
-  
   .image-2 {
     width: 401px;
   }
@@ -444,7 +446,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     gap: 1em;
-    padding: 0.5em;
+    padding-left: 19px;
   }
 
   #timetable li.details {
