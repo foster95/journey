@@ -55,7 +55,7 @@ p {
   padding-top: 3px;
   padding-bottom: 10px;
   font-size: 18px;
-  margin: 10px;
+  margin: 12px;
 }
 
 /* This is code taken from the Love Running Project to ensure that footer stays at bottom of page */
@@ -219,9 +219,14 @@ nav li {
   } 
 
  /* List styling for support section */
- #volunteer-choices li {
-  
- } 
+ .volunteer-choices {
+  padding-top: 3px;
+  padding-left: 13px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  margin: 10px;
+
+ }
 
 /* Footer Styling */
 
@@ -461,6 +466,11 @@ footer {
   .timetable li.details {
     margin-left: 3em;
     margin-right: 3em;
+  }
+
+  /* Volunteers list section styling */
+  .volunteer-choices {
+    padding-left: 38px;
   }
 
   /* Footer styling to increase font size */
