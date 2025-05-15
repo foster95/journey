@@ -442,19 +442,12 @@ footer {
   }
   
   .grouped-classes {
-    width: 100%;
     padding: 0.5rem;
   }
 
-  .grouped-classes {
-    width: calc(100% / 3);
-    margin-left: 23px;
-    gap: 15px;
-  }
-
   .grouped-classes p {
-    margin-left: -20px;
-    margin-right: -21px;
+    margin-left: -12px;
+    margin-right: -8px;
     text-align: justify; 
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -521,7 +514,18 @@ footer {
   /* Class Group styling to stack on 1400px screens */
 
   .grouped-classes {
-    margin-left: 4em;
-    gap: 25px;
+    gap: 9px;
+  }
+
+  .image-2 {
+    width: 428px;
+  }
+
+  .image-3 {
+    width: 411px;
+  }
+
+  .image-4 {
+    width: 436px;
   }
 }
