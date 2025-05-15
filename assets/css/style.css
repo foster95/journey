@@ -175,16 +175,6 @@ nav li {
   text-decoration: underline;
 }
 
-.grouped-classes {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.grouped-classes {
-  width: 100%;
-  padding: 0.5rem;
-}
-
 .image-2 {
   background: url(../images/childrens-group-2-min.jpg) no-repeat;
   background-position: center;
@@ -354,14 +344,6 @@ footer {
     font-size: 36px;
   }
 
-  .grouped-classes p {
-    margin-left: 2px;
-    margin-right: 2px;
-    text-align: justify; 
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
 
 
   /* Make images on classes page responsive to screen size */
@@ -454,8 +436,28 @@ footer {
   }
 
   /* Class Group styling to stack on 1200px screens */
+
+  .grouped-classes {
+    display: flex;
+  }
+  
+  .grouped-classes {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
   .grouped-classes {
     width: calc(100% / 3);
+    margin-left: 23px;
+    gap: 15px;
+  }
+
+  .grouped-classes p {
+    margin-left: -20px;
+    margin-right: -21px;
+    text-align: justify; 
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .timetable li.details {
@@ -514,5 +516,12 @@ footer {
 
   .image-4 {
     width: 410px;
+  }
+
+  /* Class Group styling to stack on 1400px screens */
+
+  .grouped-classes {
+    margin-left: 4em;
+    gap: 25px;
   }
 }
