@@ -229,26 +229,27 @@ nav li {
  }
 
  #signup-form {
+  background-color: #12535c;
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 15px;
   padding-bottom: 21px;
   gap: 5px;
+  border: solid 4px var(--primary-color);
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
  }
 
 .join-button {
   margin-top: 10px;
   border-radius: 25px;
   padding: 5px;
-  margin-left: 7em;
-  margin-right: 7em;
+  margin-left: 5em;
+  margin-right: 5em;
   color: var(--primary-color)
 
-}
-
- #volunteer-form {
-  background-color: #12535c;
-  color: white;
 }
 
 /* Footer Styling */
@@ -294,12 +295,23 @@ footer {
   }
 }
 
-/* Media Query for small screens (576px) */
+/* Media Query for small tablet screens (576px) */
 @media screen and (min-width: 576px) {
   /* Query to make image responsive */
   .image-1 {
     width: 425px;
     height: 300px;
+  }
+
+  /* Query to center signup form on small tablet screens */
+  #signup-form {
+    margin-left: 40px;
+    margin-right: 40px
+  }
+
+  .join-button {
+    margin-left: 12em;
+    margin-right: 12em;
   }
 }
 
@@ -377,8 +389,6 @@ footer {
     font-size: 36px;
   }
 
-
-
   /* Make images on classes page responsive to screen size */
   .image-2 {
     width: 401px;
@@ -395,6 +405,17 @@ footer {
   .timetable li.details {
     margin-left: 10em;
     margin-right: 10em;
+  }
+
+  /* Query to center sign up form on tablets */
+  #signup-form {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .join-button {
+    margin-left: 15em;
+    margin-right: 15em;
   }
 
   /* Footer styling to make font and icons larger on tablet screens */
@@ -496,6 +517,17 @@ footer {
     padding-left: 38px;
   }
 
+    /* Query to center sign up form */
+    #signup-form {
+      margin-left: 215px;
+      margin-right: 215px;
+    }
+  
+    .join-button {
+      margin-left: 22em;
+      margin-right: 22em;
+    }
+
   /* Footer styling to increase font size */
 
   #footer-info li {
@@ -566,4 +598,15 @@ footer {
   .image-4 {
     width: 436px;
   }
+
+     /* Query to center sign up form */
+     #signup-form {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  
+    .join-button {
+      margin-left: 23em;
+      margin-right: 23em;
+    }
 }
