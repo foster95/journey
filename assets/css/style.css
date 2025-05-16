@@ -94,7 +94,7 @@ header a {
 nav a {
   color: var(--secondary-color);
   margin: 0.07em;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 0.5rem;
 }
 
@@ -223,10 +223,12 @@ nav li {
   padding-top: 3px;
   padding-left: 13px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   margin: 10px;
 
  }
+
+ /*Signup form styling */
 
  #signup-form {
   background-color: #12535c;
@@ -419,6 +421,10 @@ footer {
     margin-left: 10em;
     margin-right: 10em;
   }
+
+  /* Query to increase font size for readability */
+  .volunteer-choices {
+    font-size: 20px;
 
   /* Query to center sign up form on tablets */
   #signup-form {
