@@ -231,6 +231,8 @@ nav li {
  #signup-form {
   background-color: #12535c;
   color: white;
+  font: var(--primary-font);
+  font-size: 18px;
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -246,10 +248,21 @@ nav li {
   margin-top: 10px;
   border-radius: 25px;
   padding: 5px;
-  margin-left: 5em;
-  margin-right: 5em;
-  color: var(--primary-color)
+  margin-left: 2em;
+  margin-right: 2em;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-left: 10px;
+  font-size: 18px;
+  background-color: var(--tertiary-color)
+}
 
+.text-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
 }
 
 /* Footer Styling */
@@ -310,8 +323,8 @@ footer {
   }
 
   .join-button {
-    margin-left: 12em;
-    margin-right: 12em;
+    margin-left: 7em;
+    margin-right: 7em;
   }
 }
 
@@ -414,8 +427,8 @@ footer {
   }
 
   .join-button {
-    margin-left: 15em;
-    margin-right: 15em;
+    margin-left: 10em;
+    margin-right: 10em;
   }
 
   /* Footer styling to make font and icons larger on tablet screens */
@@ -524,8 +537,8 @@ footer {
     }
   
     .join-button {
-      margin-left: 22em;
-      margin-right: 22em;
+      margin-left: 15em;
+      margin-right: 15em;
     }
 
   /* Footer styling to increase font size */
@@ -603,10 +616,5 @@ footer {
      #signup-form {
       margin-left: 300px;
       margin-right: 300px;
-    }
-  
-    .join-button {
-      margin-left: 23em;
-      margin-right: 23em;
     }
 }
