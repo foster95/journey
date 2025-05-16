@@ -228,6 +228,29 @@ nav li {
 
  }
 
+ #signup-form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-bottom: 21px;
+  gap: 5px;
+ }
+
+.join-button {
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 5px;
+  margin-left: 7em;
+  margin-right: 7em;
+  color: var(--primary-color)
+
+}
+
+ #volunteer-form {
+  background-color: #12535c;
+  color: white;
+}
+
 /* Footer Styling */
 
 footer {
