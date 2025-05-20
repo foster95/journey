@@ -277,6 +277,7 @@ nav li {
   #success-message .join-button {
     padding-left: 15px;
     padding-right: 15px;
+    margin-left: 5em;
   }
 
   #success-message a {
@@ -334,6 +335,13 @@ footer {
     width: 425px;
     height: 300px;
   }
+
+  /* Query to centre success return button */
+
+  #success-message .join-button { 
+  margin-left: 12em;
+  }
+
 
   /* Query to center signup form on small tablet screens */
   #signup-form {
@@ -454,7 +462,14 @@ footer {
     margin-left: 10em;
     margin-right: 10em;
   }
+  
+
+   /* Query to centre success return button */
+
+  #success-message .join-button { 
+    margin-left: 17em;
   }
+
 
   /* Footer styling to make font and icons larger on tablet screens */
 
@@ -566,6 +581,13 @@ footer {
       margin-right: 15em;
     }
 
+     /* Query to centre success return button */
+
+  #success-message .join-button { 
+  margin-left: 29em;
+  }
+
+
   /* Footer styling to increase font size */
 
   #footer-info li {
@@ -642,4 +664,11 @@ footer {
       margin-left: 300px;
       margin-right: 300px;
     }
+
+     /* Query to centre success return button */
+
+  #success-message .join-button { 
+  margin-left: 35em;
+  }
+
 }
