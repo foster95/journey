@@ -267,6 +267,23 @@ nav li {
   border-radius: 25px;
 }
 
+  /* Success message page styling */
+  #success-message > p {
+    text-align: center;
+  }
+
+  /* Success message button styling */
+
+  #success-message .join-button {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #success-message a {
+    text-decoration: none;
+    color: white;
+  }
+
 /* Footer Styling */
 
 footer {
@@ -425,6 +442,7 @@ footer {
   /* Query to increase font size for readability */
   .volunteer-choices {
     font-size: 20px;
+  }
 
   /* Query to center sign up form on tablets */
   #signup-form {
@@ -435,6 +453,7 @@ footer {
   .join-button {
     margin-left: 10em;
     margin-right: 10em;
+  }
   }
 
   /* Footer styling to make font and icons larger on tablet screens */
