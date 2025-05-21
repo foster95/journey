@@ -262,6 +262,7 @@ nav li {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 25px;
+  padding-left: 1rem;
 }
 
 /* Success message page styling */
@@ -658,6 +659,6 @@ footer {
   /* Query to centre success return button */
 
   #success-message .join-button {
-    margin-left: 35em;
+    margin-left: 34em;
   }
 }

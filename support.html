@@ -78,8 +78,9 @@
       <!--Code taken and adapted from Love Running walk through project-->
       
       <!--Form for subscribing for volunteer information-->
+      <!--Redirect onsubmit and script at the bottom due to help of mentor 5pence-->
       <section id="volunteer-form">
-        <form id="signup-form" method="POST" action="success.html">
+        <form id="signup-form" onsubmit="return handleDummySubmit(event)">
             <label for="first-name">First Name:</label><input type="text" id="first-name" name="first-name" class="text-input" required>
             <label for="last-name">Last Name:</label><input type="text" id="last-name" name="last-name" class="text-input" required>
             <label for="email-address">Email Address:</label><input type="email" id="email-address" name="email-address" class="text-input" required>
@@ -133,9 +134,15 @@
       </div>
     </footer>
 
-    <script
+    <script>
       src="https://kit.fontawesome.com/59919c7ac3.js"
       crossorigin="anonymous"
-    ></script>
+    </script>
+    <script>
+    function handleDummySubmit(event) {
+    event.preventDefault(); // stop real submission
+    // Redirect to your success page
+    window.location.href = "success.html";
+    return false;}</script>
   </body>
 </html>
