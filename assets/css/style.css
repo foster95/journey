@@ -216,6 +216,11 @@ nav li {
   text-align: center;
 }
 
+/* Padding for class form section */
+#learn-more-classes {
+  padding-top: 2em;
+}
+
 /* List styling for support section */
 .volunteer-choices {
   padding-top: 3px;
@@ -225,7 +230,7 @@ nav li {
   margin: 10px;
 }
 
-/*Signup form styling */
+/*Signup form and class info form styling */
 
 #signup-form {
   background-color: #12535c;
