@@ -121,7 +121,7 @@ nav li {
 /* Hero Image */
 
 #hero-image {
-  background: url(..//images/group-shot-hero-min.jpg);
+  background: url(../images/group-shot-hero-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -144,7 +144,7 @@ nav li {
 }
 
 .image-1 {
-  background: url(..//images/adults-group3.jpg);
+  background: url(../images/adults-group3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 300px;
@@ -183,7 +183,7 @@ nav li {
 }
 
 .image-3 {
-  background: url(..//images/group-shot-3.jpg);
+  background: url(../images/group-shot-3.jpg);
   background-position: center;
   width: 300px;
   height: 290px;
@@ -191,7 +191,7 @@ nav li {
 }
 
 .image-4 {
-  background: url(..//images/adults-group-4-min2.jpg);
+  background: url(../images/adults-group-4-min2.jpg);
   background-position: center;
   width: 300px;
   height: 290px;
