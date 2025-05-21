@@ -45,7 +45,6 @@ h3 {
   font-size: 49px;
   text-align: center;
   padding-top: 15px;
-
 }
 
 p {
@@ -203,34 +202,33 @@ nav li {
   text-align: center;
 }
 
-  /* Style times section on classes page */
-  .timetable li.details {
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 25px;
-    border-length: 25px;
-    font-size: 21px;
-    padding-bottom: 7px;
-    padding-top: 7px;
-    list-style-type: none;
-    margin-left: 30px;
-    margin-right: 30px;
-    text-align: center;
-  } 
+/* Style times section on classes page */
+.timetable li.details {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 25px;
+  border-length: 25px;
+  font-size: 21px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+}
 
- /* List styling for support section */
- .volunteer-choices {
+/* List styling for support section */
+.volunteer-choices {
   padding-top: 3px;
   padding-left: 13px;
   padding-bottom: 10px;
   font-size: 18px;
   margin: 10px;
+}
 
- }
+/*Signup form styling */
 
- /*Signup form styling */
-
- #signup-form {
+#signup-form {
   background-color: #12535c;
   color: white;
   font: var(--primary-font);
@@ -244,7 +242,7 @@ nav li {
   border-radius: 25px;
   margin-left: 10px;
   margin-right: 10px;
- }
+}
 
 .join-button {
   margin-top: 10px;
@@ -258,7 +256,7 @@ nav li {
   padding-left: 10px;
   padding-left: 10px;
   font-size: 18px;
-  background-color: var(--tertiary-color)
+  background-color: var(--tertiary-color);
 }
 
 .text-input {
@@ -267,23 +265,23 @@ nav li {
   border-radius: 25px;
 }
 
-  /* Success message page styling */
-  #success-message > p {
-    text-align: center;
-  }
+/* Success message page styling */
+#success-message > p {
+  text-align: center;
+}
 
-  /* Success message button styling */
+/* Success message button styling */
 
-  #success-message .join-button {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 5em;
-  }
+#success-message .join-button {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 5em;
+}
 
-  #success-message a {
-    text-decoration: none;
-    color: white;
-  }
+#success-message a {
+  text-decoration: none;
+  color: white;
+}
 
 /* Footer Styling */
 
@@ -321,7 +319,6 @@ footer {
 
 /* Query to make image responsive */
 @media screen and (min-width: 344px) {
-
   .image-1 {
     width: 331px;
     height: 300px;
@@ -338,15 +335,14 @@ footer {
 
   /* Query to centre success return button */
 
-  #success-message .join-button { 
-  margin-left: 12em;
+  #success-message .join-button {
+    margin-left: 12em;
   }
-
 
   /* Query to center signup form on small tablet screens */
   #signup-form {
     margin-left: 40px;
-    margin-right: 40px
+    margin-right: 40px;
   }
 
   .join-button {
@@ -381,14 +377,14 @@ footer {
   }
 
   #menu {
-    margin-top: -2px
+    margin-top: -2px;
   }
 
   /* Query to increase font size for readability */
   p {
     font-size: 20px;
   }
-  
+
   h2 {
     font-size: 75px;
   }
@@ -414,7 +410,7 @@ footer {
   h3 {
     font-size: 62px;
     margin-top: 1px;
-    margin-left: 3px
+    margin-left: 3px;
   }
 
   #numbers p {
@@ -462,14 +458,12 @@ footer {
     margin-left: 10em;
     margin-right: 10em;
   }
-  
 
-   /* Query to centre success return button */
+  /* Query to centre success return button */
 
-  #success-message .join-button { 
+  #success-message .join-button {
     margin-left: 17em;
   }
-
 
   /* Footer styling to make font and icons larger on tablet screens */
 
@@ -479,8 +473,7 @@ footer {
 
   #footer-info li.social {
     font-size: 33px;
-}
-
+  }
 }
 
 /* Media Query for desktop screens (1200px) */
@@ -519,13 +512,13 @@ footer {
     flex-basis: 50px;
     padding-bottom: 30px;
     margin-left: 29px;
-    margin-right: 29px
+    margin-right: 29px;
   }
 
   #mission h2 {
     margin-left: 5px;
   }
-  
+
   h3 {
     font-size: 60px;
   }
@@ -547,7 +540,7 @@ footer {
   .grouped-classes {
     display: flex;
   }
-  
+
   .grouped-classes {
     padding: 0.5rem;
   }
@@ -555,7 +548,7 @@ footer {
   .grouped-classes p {
     margin-left: -12px;
     margin-right: -8px;
-    text-align: justify; 
+    text-align: justify;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -570,23 +563,22 @@ footer {
     padding-left: 38px;
   }
 
-    /* Query to center sign up form */
-    #signup-form {
-      margin-left: 215px;
-      margin-right: 215px;
-    }
-  
-    .join-button {
-      margin-left: 15em;
-      margin-right: 15em;
-    }
-
-     /* Query to centre success return button */
-
-  #success-message .join-button { 
-  margin-left: 29em;
+  /* Query to center sign up form */
+  #signup-form {
+    margin-left: 215px;
+    margin-right: 215px;
   }
 
+  .join-button {
+    margin-left: 15em;
+    margin-right: 15em;
+  }
+
+  /* Query to centre success return button */
+
+  #success-message .join-button {
+    margin-left: 29em;
+  }
 
   /* Footer styling to increase font size */
 
@@ -596,8 +588,7 @@ footer {
 
   #footer-info li.social {
     font-size: 38px;
-}
-
+  }
 }
 
 /* Media Query for large screens (1400px) */
@@ -659,16 +650,15 @@ footer {
     width: 436px;
   }
 
-     /* Query to center sign up form */
-     #signup-form {
-      margin-left: 300px;
-      margin-right: 300px;
-    }
-
-     /* Query to centre success return button */
-
-  #success-message .join-button { 
-  margin-left: 35em;
+  /* Query to center sign up form */
+  #signup-form {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 
+  /* Query to centre success return button */
+
+  #success-message .join-button {
+    margin-left: 35em;
+  }
 }
