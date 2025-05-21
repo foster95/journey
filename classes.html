@@ -220,9 +220,15 @@
       </div>
     </footer>
 
-    <script
+    <script>
       src="https://kit.fontawesome.com/59919c7ac3.js"
       crossorigin="anonymous"
-    ></script>
+    </script>
+     <script>
+    function handleDummySubmit(event) {
+    event.preventDefault(); // stop real submission
+    // Redirect to your success page
+    window.location.href = "success.html";
+    return false;}</script>
   </body>
 </html>
