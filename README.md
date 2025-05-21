@@ -43,7 +43,7 @@ Journey is an all ages drama group with the aim of creating a safe, inclusive en
 
 Initial colour palette:
 
-![Initial Colour Palette] (assets/images/initial-colour-palette.png)
+![Initial Colour Palette] (![assets/images/initial-colour-palette.png](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png))
 
 However I quickly realised that I would run into a number of issues in regards to contrast, accesibility and user experience, with too many colours causing a disjointed and potentially poor experience.
 
@@ -51,5 +51,5 @@ As a result I refined the colour palette adjusting my colours to ensure that I c
 
 Refined colour palette:
 
-! [Refined colour palette] (assets/images/refined-colour-palette.png)
+! [Refined colour palette] ![(assets/images/refined-colour-palette.png)](https://github.com/foster95/journey/blob/main/assets/images/refined-colour-palette.png)
 
