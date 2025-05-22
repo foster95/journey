@@ -39,17 +39,17 @@ The website has been created across three distinct pages, covering seperate aspe
 Every page follows the same page structure and brand colours ensuring a positive user experience across every page with easy access to return to the homepage.
 
 ## Brand Colours
-Journey is an all ages drama group with the aim of creating a safe, inclusive environemnt. They are focussed on bringing joy to members. Whenever I think of joy, I think of the sun and it was therefore crucial to me that yellow be the primary colour for the website. I originlly began with a much wider colour palette:
+Journey is an all ages drama group with the aim of creating a safe, inclusive environemnt. They are focussed on bringing joy to members. Whenever I think of joy, I think of the sun and it was therefore crucial that yellow be the primary colour for the website. The project therefore originlly began with a much wider colour palette:
 
 Initial colour palette:
 
-![Initial Colour Palette] (![assets/images/initial-colour-palette.png](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png))
+![Initial Colour Palette](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png))
 
-However I quickly realised that I would run into a number of issues in regards to contrast, accesibility and user experience, with too many colours causing a disjointed and potentially poor experience.
+On begining the website with this colour palette however, the website quickly ran into a number of issues in regards to contrast, accesibility and user experience, with too many colours causing a disjointed and potentially poor experience.
 
-As a result I refined the colour palette adjusting my colours to ensure that I could still keep the yellow as the primary colour, but the other colours in the palette would be complimentary. As result I refined my palette down to the following:
+As a result the colour palette was refined, adjusting the colours to ensure that the website could still keep the yellow as the primary colour, but the other colours in the palette would be complimentary. The final selected colour palette is below.
 
 Refined colour palette:
 
-! [Refined colour palette] ![(assets/images/refined-colour-palette.png)](https://github.com/foster95/journey/blob/main/assets/images/refined-colour-palette.png)
+![(Refined Colour Palette)](https://github.com/foster95/journey/blob/main/assets/images/refined-colour-palette.png)
 
