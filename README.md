@@ -2,7 +2,7 @@
 
 Project 1 - Alice Foster
 
-[View live github project] (https:github.com/foster95.journey.git)
+![View live github project](https:github.com/foster95.journey.git)
 
 # Journey
 This project creates a simple, entry level website for Journey, a community led drama company which provides a series of different classes for different ages in order to bring people together and build confidence in a safe, inclusive, welcoming space. The website is designed to give users an overview of each class that is available to access as well as to sign up to be part of the volunteer effort for Journey. The website uses bright, exciting colours, that are associated with fun, joyy and inclusivity. Across the website there are numerous images that are directly related to the classes that are available, as well as a hero image of the group. Finally the website has contrasting colours for the font to ensure maximum accessibility. 
@@ -18,8 +18,10 @@ Journey reached out to me as they required a website which provided an overview 
 1. UX
 * User Stories
 2. Design
-* Brand Colours
 * Wireframes
+* Brand Colours
+* Typography
+* Images
 
 # UX
 
@@ -38,18 +40,68 @@ The website has been created across three distinct pages, covering seperate aspe
 
 Every page follows the same page structure and brand colours ensuring a positive user experience across every page with easy access to return to the homepage.
 
+## Wireframes
+
+All wireframes were generated using Balsamiq:
+
 ## Brand Colours
 Journey is an all ages drama group with the aim of creating a safe, inclusive environemnt. They are focussed on bringing joy to members. Whenever I think of joy, I think of the sun and it was therefore crucial that yellow be the primary colour for the website. The project therefore originlly began with a much wider colour palette:
 
-Initial colour palette:
+**Initial colour palette:**
 
-![Initial Colour Palette](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png))
+![Initial Colour Palette](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png)
 
 On begining the website with this colour palette however, the website quickly ran into a number of issues in regards to contrast, accesibility and user experience, with too many colours causing a disjointed and potentially poor experience.
 
 As a result the colour palette was refined, adjusting the colours to ensure that the website could still keep the yellow as the primary colour, but the other colours in the palette would be complimentary. The final selected colour palette is below.
 
-Refined colour palette:
+The colours are not quite complimentary, but sit very close to each other on the colour palette, so continue to provide a satisfactory user experience.
+
+**Refined colour palette:**
 
 ![(Refined Colour Palette)](https://github.com/foster95/journey/blob/main/assets/images/refined-colour-palette.png)
+
+## Typography
+
+All font came from the Google Font library.
+
+Barrio - was used for all headers and for the site logo. Bario is one of the first fonts that is suggesed by Google for a playful font that still has good readibility across all platforms.
+
+Archivo - was used for all other secondary text. Archivo is a sans-serif font that is very simple and modern to read which contrasts nicely with the more decorative Bario font.
+
+## Images
+
+All images used across the site were generated using Gemini AI through Google, with various prompts such as: 
+
+"create me an image of a drama group of all ages rehearsing"
+
+"create me an image of an informal adults drama group"
+
+"change the group to children"
+
+# Features
+
+Every feature across the website wad chosen for the simplest possible user experience allowing all information to be easily accessible to any user, regardless of the device they were accessing the site on.
+
+## Navigation bar
+
+The navigation bar is always at the top of the screen and houses the Journey logo, which adjusts to a range of screen sizes.
+
+At all times the navigation system can be seen, showing the three pages available.
+
+The header and the navigation bar are fixed so that they are always at the top of the screen regardless of the screen size.
+
+## Hero Image
+
+The home page utilises a hero image which spans the screen and reacts responsively depending on the screen size. The hero image has a layer of opacity over the top to avoid distracting from the bulk of the text further down the page. The image looks like it is part of the website, rather than simply sitting on top of the page.
+
+## Who are we and Journey's ethos
+
+As you scroll down the page, the user find a section which is a short summary of the company, giving any new user an overview of who the company is and why they should join journey. This is complimented by Journey's three ethos mission statement.
+
+The misson statement sits in a flex box, allowing it to react responsively depending on the screen, moving from stacking to three columns on one page. The font size adapts slightly depending on which screen is used, but the h3 is always slightly larger than the small paragraphs underneath in order to draw visual interest.
+
+## Classes section
+
+
 
