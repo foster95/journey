@@ -120,6 +120,8 @@ Underneath the classes section, there is a form which requires the user to provi
 
 ![(Classes Information Form Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
 
+![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
+
 ## Support section
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
 
@@ -142,8 +144,16 @@ The footer is consistent across every page. It has the same colour palette as th
 # Testing
 
 ## Browser Testing
+I used testingbot to check cross compatability across multiple browsers
+Browser | Device | Index | Classes | Support | Success | 
+--- | --- | --- | --- | --- | --- 
+Chrome  | Windows 10 & Android Pixel 9 | No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected 
+Edge | Windows 10 |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected 
+Firefox | Windows 10 & Galaxy S21 |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |
+Opera | Windows 10 & Galaxy S9 |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |
 
 ## Responsive Testing
+I used Blisk to test for responsive scaling across multiple screen sizes.
 
 # Code Validation
 
@@ -182,6 +192,8 @@ HTML and CSS only
 
 ## Technology
 Github and Gitpod
+Balsamiq
+Font Awesome
 
 # Credits and Reference
 * Mercades Yearly - The originator of Quest CIC which was a massive inspiration for the entire project
