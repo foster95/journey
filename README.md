@@ -153,7 +153,7 @@ The footer is consistent across every page. It has the same colour palette as th
 
 ## Browser Testing
 I used testingbot to check cross compatability across multiple browsers
-Browser | Device | Index | Classes | Support | Success | 
+Browser | Device | Home | Classes | Support | Success 
 --- | --- | --- | --- | --- | --- 
 Chrome  | Windows 10 & Android Pixel 9 | No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected 
 Edge | Windows 10 |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected 
@@ -161,7 +161,17 @@ Firefox | Windows 10 & Galaxy S21 |  No scaling issues, showing as expected |  N
 Opera | Windows 10 & Galaxy S9 |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |  No scaling issues, showing as expected |
 
 ## Responsive Testing
-I used Blisk to test for responsive scaling across multiple screen sizes.
+I used Devtools and Blisk to test for responsive scaling across multiple screen sizes.
+Device | Home | Classes | Support | Success | Notes
+--- | --- | --- | --- | --- | ---
+Galaxy Z Fold 5 | Hero image scaling correctly, image with correct amount of padding and displaying cleanly. Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Journey mission points stack on screen and are spaced correctly | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Images displaying and scaling correctly. Form scales correctly, submit button is centre of page, padding is correct across all paragraphs and images. | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Padding is correct across all paragraphs. Form scales correctly, submit button is in centre of page. | Mobile navbar is fixed to top of screen, footer is fixed to bottom of page. Paragraphs are padded correctly and return button sits centrally on page. | All correct across all pages as expected and built.
+iPhone 14 Pro Max | Hero image scaling correctly, image with correct amount of padding and displaying cleanly. Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Journey mission points stack on screen and are spaced correctly | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Images displaying and scaling correctly. Form scales correctly, submit button is centre of page, padding is correct across all paragraphs and images. | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Padding is correct across all paragraphs. Form scales correctly, submit button is in centre of page. | Mobile navbar is fixed to top of screen, footer is fixed to bottom of page. Paragraphs are padded correctly and return button sits centrally on page. | All correct across all pages as expected and built.
+iPad Air | Hero image scaling correctly, image with correct amount of padding and displaying cleanly. Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties. | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Images displaying and scaling correctly. Form scales correctly, submit button is centre of page, padding is correct across all paragraphs and images. | Mobile navbar is fixed to top of screen regardless of scroll, footer is fixed to bottom of page. Padding is correct across all paragraphs. Form scales correctly, submit button is in centre of page. | Mobile navbar is fixed to top of screen, footer is fixed to bottom of page. Paragraphs are padded correctly and return button sits centrally on page. | All correct across all pages as expected and built. 
+MacBook | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Nav bar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. 
+
+
+
+
 
 # Code Validation
 

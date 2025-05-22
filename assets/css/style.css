@@ -418,6 +418,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 12px;
+    justify-content: center;
   }
 
   /* Query to better space the numbers section */
@@ -516,8 +517,6 @@ footer {
     display: flex;
     flex-basis: 50px;
     padding-bottom: 30px;
-    margin-left: 29px;
-    margin-right: 29px;
   }
 
   #mission h2 {
@@ -597,11 +596,6 @@ footer {
   /* Query to put numbers section into a row and look more appealing */
   #mission h2 {
     padding-top: 15px;
-  }
-
-  #numbers {
-    padding-left: 40px;
-    padding-right: 40px;
   }
 
   h3 {
