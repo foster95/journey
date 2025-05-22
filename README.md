@@ -43,6 +43,10 @@ Every page follows the same page structure and brand colours ensuring a positive
 ## Wireframes
 All wireframes were generated using Balsamiq:
 
+![Mobile Wireframes](https://github.com/foster95/journey/blob/main/assets/images/mobile-wireframes.png)
+
+![Desktop Wireframes](https://github.com/foster95/journey/blob/main/assets/images/desktop-wireframes.png)
+
 ## Brand Colours
 Journey is an all ages drama group with the aim of creating a safe, inclusive environemnt. They are focussed on bringing joy to members. Whenever I think of joy, I think of the sun and it was therefore crucial that yellow be the primary colour for the website. The project therefore originlly began with a much wider colour palette:
 
@@ -120,7 +124,7 @@ Underneath the classes section, there is a form which requires the user to provi
 
 ![(Classes Information Form Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
 
-![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
+![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/button-stasis.png)
 
 ## Support section
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
@@ -134,6 +138,10 @@ Underneath the support section there is a form which requires the user to provid
 
 ## Success page
 On completion of either form, a user is taken to this success page. This success page allows the user to know the information has been entered correctly and recorded by the Journey team. It features a button to return the user to the main homepage. This button has the same styling as the other submit buttons on the class information form and the volunteer form.
+
+![(Success Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-success.png)
+
+![(Success Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-success.png)
 
 ## Footer
 The footer is consistent across every page. It has the same colour palette as the header and navbar to ensure cohesian and includes the address for Journey and Journey's social media platforms. All of the social links have an ARIA label and open in a new page.
