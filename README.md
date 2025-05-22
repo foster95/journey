@@ -86,13 +86,25 @@ At all times the navigation system can be seen, showing the three pages availabl
 
 The header and the navigation bar are fixed so that they are always at the top of the screen regardless of the screen size.
 
+![(Navigation Bar Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-navbar.png)
+
+![(Navigation Bar Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-navbar.png)
+
 ## Hero Image
 The home page utilises a hero image which spans the screen and reacts responsively depending on the screen size. The hero image has a layer of opacity over the top to avoid distracting from the bulk of the text further down the page. The image looks like it is part of the website, rather than simply sitting on top of the page.
 
-## Who are we and Journey's ethos
+![(Hero Image Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-hero-image.png)
+
+![(Hero Image Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-hero-image.png)
+
+## Who are we and Journey's mission
 As you scroll down the page, the user find a section which is a short summary of the company, giving any new user an overview of who the company is and why they should join journey. This is complimented by Journey's three ethos mission statement.
 
 The misson statement sits in a flex box, allowing it to react responsively depending on the screen, moving from stacking to three columns on one page. The font size adapts slightly depending on which screen is used, but the h3 is always slightly larger than the small paragraphs underneath in order to draw visual interest.
+
+![(Mission Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-mission.png)
+
+![(Mission Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-mission.png)
 
 ## Classes section
 This section provides a brief overview of all ofl the classes available. It had a photo which matches the class and a small section of text which provides some copy to sell each class to a prospective class attendee. Undeneath the text there is a smaller text box which contains the age range for each group and the days of the week the sessions are run. These sections are housed in boxes which model the click boxes used in the navigation bar to provide a cohesive feel acrosss the website.
@@ -110,3 +122,6 @@ Underneath the support section there is a form which requires the user to provid
 
 ## Success page
 On completion of either form, a user is taken to this success page. This success page allows the user to know the information has been entered correctly and recorded by the Journey team. It features a button to return the user to the main homepage. This button has the same styling as the other submit buttons on the class information form and the volunteer form.
+
+## Footer
+The footer is consistent across every page. It has the same colour palette as the header and navbar to ensure cohesian and includes the address for Journey and Journey's social media platforms. All of the social links have an ARIA label and open in a new page.
