@@ -274,7 +274,6 @@ nav li {
 /* Success message page styling */
 #success-message > p {
   text-align: center;
-  padding-bottom: 1em;
 }
 
 /* Success message button styling */
@@ -282,7 +281,12 @@ nav li {
 #success-message .join-button {
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 5em;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #success-message a {
@@ -338,12 +342,6 @@ footer {
   .image-1 {
     width: 425px;
     height: 300px;
-  }
-
-  /* Query to centre success return button */
-
-  #success-message .join-button {
-    margin-left: 12em;
   }
 
   /* Query to center signup form on small tablet screens */
@@ -466,12 +464,6 @@ footer {
     margin-right: 10em;
   }
 
-  /* Query to centre success return button */
-
-  #success-message .join-button {
-    margin-left: 17em;
-  }
-
   /* Footer styling to make font and icons larger on tablet screens */
 
   #footer-info li {
@@ -581,12 +573,6 @@ footer {
     margin-right: 15em;
   }
 
-  /* Query to centre success return button */
-
-  #success-message .join-button {
-    margin-left: 29em;
-  }
-
   /* Footer styling to increase font size */
 
   #footer-info li {
@@ -661,11 +647,5 @@ footer {
   #signup-form {
     margin-left: 300px;
     margin-right: 300px;
-  }
-
-  /* Query to centre success return button */
-
-  #success-message .join-button {
-    margin-left: 34em;
   }
 }
