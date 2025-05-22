@@ -184,3 +184,17 @@ HTML and CSS only
 Github and Gitpod
 
 # Credits and Reference
+* Mercades Yearly - The originator of Quest CIC which was a massive inspiration for the entire project
+* Coolors - For colour palette generation
+* Gemini AI - For image generation across the project as well as some help on writing the copy
+* W3Schools.com - For general support, but particularly with regards to the hero image section of the website
+* The Love Running Project with Code Institute - 
+* Favicon.io - For the favicon design
+
+# Acknowledgement and thanks
+* Code Institute Slack Community - For helping me see something that was so bleeding obvious if I hadn't been so code blind
+* Spencer Baribal - The greatest mentor in the world, who was endlessly kind, patient and funny and gave me the confidence that I was doing the right thing and who helped me in a true hour of need
+* My parents - For being brutal as ever and telling me to crack on with it and get the job done, as well as provide tirimisu and flowers when I needed it
+* My fiancee Jon - who stepped up whenever I needed him and told me on more than one occasion that he would body double me till 3am if it meant I got the project done.
+
+I would have been utterly lost without these people and their support x
