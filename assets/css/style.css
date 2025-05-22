@@ -257,8 +257,8 @@ nav li {
   color: white;
   padding-top: 15px;
   padding-bottom: 15px;
-  padding-left: 10px;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 18px;
   background-color: var(--tertiary-color);
   border: 2px solid var(--primary-color)
@@ -292,6 +292,7 @@ nav li {
 #success-message a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 /* Footer Styling */
@@ -348,11 +349,6 @@ footer {
   #signup-form {
     margin-left: 40px;
     margin-right: 40px;
-  }
-
-  .join-button {
-    margin-left: 7em;
-    margin-right: 7em;
   }
 }
 
@@ -459,11 +455,6 @@ footer {
     margin-right: 90px;
   }
 
-  .join-button {
-    margin-left: 10em;
-    margin-right: 10em;
-  }
-
   /* Footer styling to make font and icons larger on tablet screens */
 
   #footer-info li {
@@ -566,11 +557,6 @@ footer {
   #signup-form {
     margin-left: 215px;
     margin-right: 215px;
-  }
-
-  .join-button {
-    margin-left: 15em;
-    margin-right: 15em;
   }
 
   /* Footer styling to increase font size */
