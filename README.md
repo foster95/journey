@@ -1,6 +1,6 @@
 # Journey
 
-Project 1 - Alice Foster
+Project 1 by Alice Foster
 
 [View live github project](hhttps://foster95.github.io/journey/)
 
