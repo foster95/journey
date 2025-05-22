@@ -125,3 +125,52 @@ On completion of either form, a user is taken to this success page. This success
 
 ## Footer
 The footer is consistent across every page. It has the same colour palette as the header and navbar to ensure cohesian and includes the address for Journey and Journey's social media platforms. All of the social links have an ARIA label and open in a new page.
+
+# Future Features
+* Testimonials section - due to limitations with the project and that I wanted to build solely with vanilla html and not use Bootstrap, I was unable to build a carousel of testimonials. This would be the first immediate update once I have learned Javascript
+
+# Testing
+
+## Browser Testing
+
+## Responsive Testing
+
+# Code Validation
+
+# HTML Validation
+## Index.html
+## Classes.html
+## Support.html
+## Success.html
+
+# CSS Validation
+
+# Lighthouse Testing
+
+## Index.html - Mobile
+## Index.html - Desktop
+## Classes.html - Mobile
+## Classes.html - Desktop
+## Support.html - Mobile
+## Support.html - Desktop
+## Success.html - Mobile
+## Success.html - Desktop
+
+# WAVE Testing
+## Index.html
+## Classes.html
+## Support.html
+## Success.html
+
+## Testing Errors and Improvements
+
+# Deployment
+
+# Technologies Used
+## Languages 
+HTML and CSS only
+
+## Technology
+Github and Gitpod
+
+# Credits and Reference
