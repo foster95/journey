@@ -265,6 +265,11 @@ nav li {
   border: 2px solid var(--primary-color)
 }
 
+.join-button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
+
 .text-input {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -292,8 +297,15 @@ nav li {
 
 #success-message a {
   text-decoration: none;
+  background-color: var(--tertiary-color);
   color: white;
-  font-weight: bold;
+}
+
+#success-message a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: var(--primary-color)
+
 }
 
 /* Footer Styling */
