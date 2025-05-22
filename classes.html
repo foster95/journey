@@ -166,20 +166,22 @@
 
          <!--Form for collecting class interest-->
       <!--Redirect onsubmit and script at the bottom due to help of mentor 5pence-->
-      <div id="volunteer-form">
-        <form id="signup-form" onsubmit="return handleDummySubmit(event)">
+      <div id="classes-form">
+        <form id="class-info-form" onsubmit="return handleDummySubmit(event)">
             <label for="first-name">First Name:</label><input type="text" id="first-name" name="first-name" class="text-input" required>
             <label for="last-name">Last Name:</label><input type="text" id="last-name" name="last-name" class="text-input" required>
             <label for="email-address">Email Address:</label><input type="email" id="email-address" name="email-address" class="text-input" required>
             <label for="phone-number">Phone Number:</label><input type="number" id="phone-number" name="phone-number" class="text-input" required>
-            <label for="volunteer-type">What class would you like to know more about?:</label>
-            <select id="volunteer-type" name="volunteer-type" class="text-input" required>
+            <label for="classes-type">What class would you like to know more about?:</label>
+            <select id="classes-type" name="classes-type" class="text-input" required>
                 <option value="">Select an option</option>
                 <option value="kids">Kids class</option>
                 <option value="teenagers">Teen class</option>
                 <option value="adult">Adult class</option>
             </select>
+            <div class="button-container">
             <button type="submit" class="join-button"><strong>Journey onwards</strong></button>
+            </div>
 
         </form>
         </div>

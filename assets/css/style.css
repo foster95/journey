@@ -232,7 +232,8 @@ nav li {
 
 /*Signup form and class info form styling */
 
-#signup-form {
+#signup-form,
+#class-info-form {
   background-color: #12535c;
   color: white;
   font: var(--primary-font);
@@ -345,8 +346,9 @@ footer {
     height: 300px;
   }
 
-  /* Query to center signup form on small tablet screens */
-  #signup-form {
+  /* Query to center signup form and class info form on small tablet screens */
+  #signup-form,
+  #class-info-form {
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -449,8 +451,9 @@ footer {
     font-size: 20px;
   }
 
-  /* Query to center sign up form on tablets */
-  #signup-form {
+  /* Query to center sign up form and class info form on tablets */
+  #signup-form,
+  #class-info-form {
     margin-left: 90px;
     margin-right: 90px;
   }
@@ -553,8 +556,9 @@ footer {
     padding-left: 38px;
   }
 
-  /* Query to center sign up form */
-  #signup-form {
+  /* Query to center sign up form and class info*/
+  #signup-form
+  #class-info-form {
     margin-left: 215px;
     margin-right: 215px;
   }
@@ -629,8 +633,9 @@ footer {
     width: 436px;
   }
 
-  /* Query to center sign up form */
-  #signup-form {
+  /* Query to center sign up and class info form */
+  #signup-form,
+  #class-info-form {
     margin-left: 300px;
     margin-right: 300px;
   }
