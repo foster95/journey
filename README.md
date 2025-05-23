@@ -182,15 +182,22 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ![(CSS Validation)](https://github.com/foster95/journey/blob/main/assets/images/css-validation.png)
 
 # Lighthouse Testing
-
 ## Index.html - Mobile
+![(Index Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-index.png)
 ## Index.html - Desktop
+![(Index Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-index.png)
 ## Classes.html - Mobile
+![(Classes Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-classes.png)
 ## Classes.html - Desktop
+![(Classes Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-classes.png)
 ## Support.html - Mobile
+![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-support.png)
 ## Support.html - Desktop
+![(Support Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-support.png)
 ## Success.html - Mobile
+![(Success Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-success.png)
 ## Success.html - Desktop
+![(Sucess Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-success.png)
 
 # WAVE Testing
 ## Index.html
@@ -217,6 +224,7 @@ Font Awesome
 * Gemini AI - For image generation across the project as well as some help on writing the copy
 * W3Schools.com - For general support, but particularly with regards to the hero image section of the website
 * The Love Running Project with Code Institute - 
+* Jaqui_Alumna_lead from Slack - who provided a suggestion for a code snippet on the slack channel when I asked for assistance
 * Favicon.io - For the favicon design
 
 # Acknowledgement and thanks
