@@ -167,6 +167,20 @@ MacBook | Hero image scales correctly, image with correct amount of padding and 
 Desktop | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Navbar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties centrally on the page. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of the page. All images load correctly. Class information expands into three columns due to flexbox properties with equal padding in display. Padding is not correct across all paragraphs - padding on bottom sends class information boxes out of allignment and requires individual media query to fix. Form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, return to home button sits centrally and is fixed. | Minor padding issue on Classes page sending boxes housing class days information out of alignment Bug has since been fixed - 23/05. All other pages behaving as expected and built.
 Desktop XL | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Navbar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties centrally on the page. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of the page. All images load correctly. Class information expands into three columns due to flexbox properties with equal padding in display. Padding is correct across all paragraphs. Form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, return to home button sits centrally and is fixed. | All correct across all pages as expected and built.
 
+# Device Format Testing - Mobile and Tablet
+![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
+![(Classes Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-classes-complete.png)
+![(Support Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-support-complete.png)
+![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
+
+
+# Device Format Testing - Laptop and Desktop
+![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
+![(Classes Format Testing Laptop)](hhttps://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
+![(Classes Form Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes-form.png)
+![(Support Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-support.png)
+![(Success Format Testing Laptop)](hhttps://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
+
 # Code Validation
 # HTML Validation
 ## Index.html
