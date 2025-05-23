@@ -187,10 +187,9 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ## Index.html
 ![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
 ## Classes.html
-![(Classes Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
-![(Classes Form Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes-form.png)
+![(Classes Format Testing Laptop)]()
 ## Support.html
-![(Support Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-support.png)
+![(Support Format Testing Laptop)]()
 ## Success.html
 ![(Success Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
 
