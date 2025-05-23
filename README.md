@@ -282,6 +282,8 @@ This project used Github and Github Pages, and was deployed early on in the proj
    - Press save
 4. Allow Github Pages a few minutes to deploy. This can then be found on the right hand side of the dashboard.
 
+![(Github Repository)](https://github.com/foster95/journey/blob/main/assets/images/github-repo.png)
+
 # Technologies Used
 ## Languages 
 HTML and CSS only
