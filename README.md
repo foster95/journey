@@ -293,6 +293,8 @@ This fixed the error.
 I also originally came up against contrast issues with my colour palette as there was yellow in the header and different shades of blue as the body. Swapping the yellow for blue around and adopting the darker blue immediately fixed the contrast issue. I also ran into an issue with button contrast, and originally had an issue with readability on buttons. I changed the colours on these again to match the rest of the site and added a hover change in colour for some additional visual interest, as well as to confirm to users they had clicked in the right place. The orignal button and the new button can be found below:
 
 #### Original button (failing contrast)
+![(Original Button)](https://github.com/foster95/journey/blob/main/assets/images/button-original.png)
+![(New Button)](https://github.com/foster95/journey/blob/main/assets/images/button-new.png)
 
 #### New button (passing contrast)
 
