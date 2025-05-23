@@ -239,7 +239,7 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 
 # WAVE Testing
 ## Index.html
-![(WAVE Index)](hhttps://github.com/foster95/journey/blob/main/assets/images/wave-index.png)
+![(WAVE Index)](https://github.com/foster95/journey/blob/main/assets/images/wave-index.png)
 ## Classes.html
 ![(WAVE Classes)](https://github.com/foster95/journey/blob/main/assets/images/wave-classes.png)
 ## Support.html
@@ -248,6 +248,24 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ![(WAVE Success)](https://github.com/foster95/journey/blob/main/assets/images/wave-success.png)
 
 ## Testing Errors and Improvements
+### Classes.html
+A minor error was discovered on the classes.html where the boxes were not sitting in allignment on desktop screens and wider. To counter this I placed this element into an individual div, with the class "info-textbox". I wrote a media query for screens 1200px and wider:
+
+  .info-textbox {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+This fixed the error.
+
+Before the fix:
+
+After the fix:
+
+### Contrast
+I also originally came up against contrast issues with my colour palette as I yellow in the header and blue as the body, but by swapping this around the contrast issue was immediately minimised. The one place where I have not made a contrast change is for the buttons on the forms and the return home button on success.html. The only way I could ensure 0 contrast issues was to break the colour palette across the rest of the website. Instead I made the text bold, and I added a hover colour which was an inversion with a higher contrast score. This did not minimise the contrast warning, but I feel is a suitable compromise that does not affect website readability, and only affects a very small portion of the website.
 
 # Deployment
 
