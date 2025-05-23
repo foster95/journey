@@ -256,6 +256,31 @@ A minor error was discovered on the classes.html where the boxes housing class i
   }
   ```
 
+  I then had to follow this up with two further media queries for xxl screens 1600px and 1920px
+
+```
+@media screen and (min-width: 1600px) {
+  .children .info-textbox {
+    padding-top: 37px;
+  }
+
+  .adults .info-textbox {
+    padding-top: 35px;
+  }
+}
+```
+```
+@media screen and (min-width: 1920px) {
+  .children .info-textbox {
+    padding-top: 16px;
+  }
+
+  .adults .info-textbox {
+    padding-top: 13px;
+  }
+}
+```
+
 This fixed the error.
 
 #### Before the fix:
