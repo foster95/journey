@@ -2,7 +2,7 @@
 
 Project 1 by Alice Foster
 
-[View live github project](hhttps://foster95.github.io/journey/)
+[View live github project](https://foster95.github.io/journey/)
 
 # Journey
 This project creates a simple, entry level website for Journey, a community led drama company which provides a series of different classes for different ages in order to bring people together and build confidence in a safe, inclusive, welcoming space. The website is designed to give users an overview of each class that is available to access as well as to sign up to be part of the volunteer effort for Journey. The website uses bright, exciting colours, that are associated with fun, joyy and inclusivity. Across the website there are numerous images that are directly related to the classes that are available, as well as a hero image of the group. Finally the website has contrasting colours for the font to ensure maximum accessibility. 
@@ -15,29 +15,29 @@ Journey is directly inspired by Quest CIC, a community led initiative by my frie
 Journey reached out to me as they required a website which provided an overview of all classes, along with their contact details so that people could reach out to contact the company to sign up for classes. They also wanted to stress the fact that they are driven by commmunity and volunteer efforts, and they wanted to collect and encourage people to sign up to help with Journey's volunteer team.
 
 # Table of Contents
-1. UX
-* User Stories
-2. Design
-* Wireframes
-* Brand Colours
-* Typography
-* Images
-3. Features
-4. Testing
-* Browser Testing
-* Responsive Testing
-* Device Format Testing - Mobile and Tablet
-* Device Format Testing - Laptop and Desktop
-5. Code Validation
-* HTML Validation
-* CSS Validation
-5. Lighthouse Testing
-6. WAVE Testing
-7. Testing Errors and Bugs
-8. Deployment
-9. Technologies Used
-10. Credits and References
-11. Final Acknowledgements 
+1. [UX] (#ux)
+- [User Stories] (#user-stories)
+2. [Design] (#design)
+- [Wireframes] (#wireframes)
+- [Brand Colours] (#brand-colours)
+- [Typography] (#typography)
+- [Images] (#images)
+3. [Features] (#features)
+4. [Testing] (#testing)
+- [Browser Testing] (#browser-testing)
+- [Responsive Testing] (#responsive-testing)
+- [Device Format Testing for Mobile and Tablet] (#device-format-testing-for-mobile-and-tablet)
+- [Device Format Testing for Laptop and Desktop] (#device-format-testing-for-laptop-and-desktop)
+5. [Code Validation] (#code-validation)
+- [HTML Validation] (#html-validation)
+- [CSS Validation] (#css-validation)
+5. [Lighthouse Testing] (#lighthouse-testing)
+6. [WAVE Testing] (#wave-testing)
+7. [Testing Errors and Bugs] (#testing-errors-and-bugs)
+8. [Deployment] (#deployment)
+9. [Technologies Used] (#technologies-used)
+10. [Credits and References] (#credits-and-references)
+11. [Acknowledgement and thanks] (#acknowledgement-and-thanks)
 
 # UX
 ## User Stories
@@ -64,7 +64,7 @@ All wireframes were generated using Balsamiq:
 ## Brand Colours
 Journey is an all ages drama group with the aim of creating a safe, inclusive environemnt. They are focussed on bringing joy to members. Whenever I think of joy, I think of the sun and it was therefore crucial that yellow be the primary colour for the website. The project therefore originlly began with a much wider colour palette:
 
-**Initial colour palette:**
+### Initial colour palette:
 ![Initial Colour Palette](https://github.com/foster95/journey/blob/main/assets/images/initial-colour-palette.png)
 
 On begining the website with this colour palette however, the website quickly ran into a number of issues in regards to contrast, accesibility and user experience, with too many colours causing a disjointed and potentially poor experience.
@@ -73,7 +73,7 @@ As a result the colour palette was refined, adjusting the colours to ensure that
 
 The colours are not quite complimentary, but sit very close to each other on the colour palette, so continue to provide a satisfactory user experience.
 
-**Refined colour palette:**
+### Refined colour palette:
 ![(Refined Colour Palette)](https://github.com/foster95/journey/blob/main/assets/images/refined-colour-palette.png)
 
 ## Typography
@@ -103,14 +103,12 @@ At all times the navigation system can be seen, showing the three pages availabl
 The header and the navigation bar are fixed so that they are always at the top of the screen regardless of the screen size.
 
 ![(Navigation Bar Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-navbar.png)
-
 ![(Navigation Bar Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-navbar.png)
 
 ## Hero Image
 The home page utilises a hero image which spans the screen and reacts responsively depending on the screen size. The hero image has a layer of opacity over the top to avoid distracting from the bulk of the text further down the page. The image looks like it is part of the website, rather than simply sitting on top of the page.
 
 ![(Hero Image Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-hero-image.png)
-
 ![(Hero Image Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-hero-image.png)
 
 ## Who are we and Journey's mission
@@ -119,7 +117,6 @@ As you scroll down the page, the user find a section which is a short summary of
 The misson statement sits in a flex box, allowing it to react responsively depending on the screen, moving from stacking to three columns on one page. The font size adapts slightly depending on which screen is used, but the h3 is always slightly larger than the small paragraphs underneath in order to draw visual interest.
 
 ![(Mission Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-mission.png)
-
 ![(Mission Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-mission.png)
 
 ## Classes section
@@ -131,12 +128,8 @@ In order to make this section responsive to different screens, the image size wi
 Underneath the classes section, there is a form which requires the user to provide their details (name, email, phone number) so that a member of the Journey team can contact them about each relevant class. All of the fields must be filled to allow submission, and on submit takes the user to a success page. This is the same success page as is used for the volunteer form page. The form is styled with the brand colours, and continue to use rounded borders to provide a sympathetic experience across the site. The submission button has styling to change colour when a user highlights over the submit button, further confirming they have submitted correctly.
 
 ![(Classes Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes.jpg)
-
 ![(Classes Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes.png)
-
 ![(Classes Information Form Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
-
-![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/button-stasis.png)
 
 ## Support section
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
@@ -145,7 +138,6 @@ This section provides a brief overview of the volunteer opportunities that are a
 Underneath the support section there is a form which requires the user to provide their details. Unlike the classes information form, this form does not require a phone number. This is because Journey want to talk to everyone who is potentially thinking of joining their classes, but they are more keen to simply gather information for the volunteers so they can contact them via email. All of the fields must be filled to allow submission and on submit takes the user to a success page. This is the same sucess page as is used on the class information page. The form has identical styling to the classes information form, to ensure a cohesive look.
 
 ![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support.jpg)
-
 ![(Support Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-support.png)
 
 ## Success page
@@ -183,7 +175,7 @@ MacBook | Hero image scales correctly, image with correct amount of padding and 
 Desktop | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Navbar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties centrally on the page. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of the page. All images load correctly. Class information expands into three columns due to flexbox properties with equal padding in display. Padding is not correct across all paragraphs - padding on bottom sends class information boxes out of allignment and requires individual media query to fix. Form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, return to home button sits centrally and is fixed. | Minor padding issue on Classes page sending boxes housing class days information out of alignment Bug has since been fixed - 23/05. All other pages behaving as expected and built.
 Desktop XL | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Navbar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties centrally on the page. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of the page. All images load correctly. Class information expands into three columns due to flexbox properties with equal padding in display. Padding is correct across all paragraphs. Form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, return to home button sits centrally and is fixed. | All correct across all pages as expected and built.
 
-# Device Format Testing - Mobile and Tablet
+# Device Format Testing for Mobile and Tablet
 ## Index.html
 ![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
 ## Classes.html
@@ -194,7 +186,7 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
 
 
-# Device Format Testing - Laptop and Desktop
+# Device Format Testing for Laptop and Desktop
 ## Index.html
 ![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
 ## Classes.html
@@ -260,12 +252,17 @@ A minor error was discovered on the classes.html where the boxes were not sittin
 
 This fixed the error.
 
-Before the fix:
+#### Before the fix:
+![(Before Fix)](https://github.com/foster95/journey/blob/main/assets/images/bug-fix-before.png)
 
-After the fix:
+#### After the fix:
+![(After Fix)](https://github.com/foster95/journey/blob/main/assets/images/bug-fix-after.png)
 
 ### Contrast
 I also originally came up against contrast issues with my colour palette as I yellow in the header and blue as the body, but by swapping this around the contrast issue was immediately minimised. The one place where I have not made a contrast change is for the buttons on the forms and the return home button on success.html. The only way I could ensure 0 contrast issues was to break the colour palette across the rest of the website. Instead I made the text bold, and I added a hover colour which was an inversion with a higher contrast score. This did not minimise the contrast warning, but I feel is a suitable compromise that does not affect website readability, and only affects a very small portion of the website.
+
+#### Button fix:
+![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/button-stasis.png)
 
 # Deployment
 
