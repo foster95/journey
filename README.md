@@ -183,9 +183,9 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ## Index.html
 ![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
 ## Classes.html
-![(Classes Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-classes-complete.png)
+![(Classes Format Testing Mobile)]()
 ## Support.html
-![(Support Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-support-complete.png)
+![(Support Format Testing Mobile)]()
 ## Success.html
 ![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
 
