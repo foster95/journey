@@ -103,14 +103,19 @@ The navigation bar is always at the top of the screen and houses the Journey log
 At all times the navigation system can be seen, showing the three pages available.
 
 The header and the navigation bar are fixed so that they are always at the top of the screen regardless of the screen size.
-
+#### Mobile
 ![(Navigation Bar Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-navbar.png)
+
+#### Desktop
 ![(Navigation Bar Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-navbar.png)
 
 ## Hero Image
 The home page utilises a hero image which spans the screen and reacts responsively depending on the screen size. The hero image has a layer of opacity over the top to avoid distracting from the bulk of the text further down the page. The image looks like it is part of the website, rather than simply sitting on top of the page.
 
+#### Mobile
 ![(Hero Image Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-hero-image.png)
+
+#### Desktop
 ![(Hero Image Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-hero-image.png)
 
 ## Who are we and Journey's mission
@@ -118,7 +123,10 @@ As you scroll down the page, the user find a section which is a short summary of
 
 The misson statement sits in a flex box, allowing it to react responsively depending on the screen, moving from stacking to three columns on one page. The font size adapts slightly depending on which screen is used, but the h3 is always slightly larger than the small paragraphs underneath in order to draw visual interest.
 
+#### Mobile
 ![(Mission Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-mission.png)
+
+#### Desktop
 ![(Mission Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-mission.png)
 
 ## Classes section
@@ -126,35 +134,53 @@ This section provides a brief overview of all ofl the classes available. It had 
 
 In order to make this section responsive to different screens, the image size widens and expands for larger screens and shrinks for smaller screens. The text boxes are styled with flex boxes, allowing them to stack on smaller screens and expand into three individual columns on larger screens. 
 
+#### Mobile
 ![(Classes Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes.png)
+
+#### Desktop
 ![(Classes Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes.png)
 
 ## Classes information form
 Underneath the classes section, there is a form which requires the user to provide their details (name, email, phone number) so that a member of the Journey team can contact them about each relevant class. All of the fields must be filled to allow submission, and on submit takes the user to a success page. This is the same success page as is used for the volunteer form page. The form is styled with the brand colours, and continue to use rounded borders to provide a sympathetic experience across the site. The submission button has styling to change colour when a user highlights over the submit button, further confirming they have submitted correctly.
 
+#### Mobile
 ![(Classes Information Form Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes-form.png)
+
+#### Desktop
 
 ## Support section
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
 
+#### Mobile
 ![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support.png)
+
+#### Desktop
 
 
 ## Get involved form
 Underneath the support section there is a form which requires the user to provide their details. Unlike the classes information form, this form does not require a phone number. This is because Journey want to talk to everyone who is potentially thinking of joining their classes, but they are more keen to simply gather information for the volunteers so they can contact them via email. All of the fields must be filled to allow submission and on submit takes the user to a success page. This is the same sucess page as is used on the class information page. The form has identical styling to the classes information form, to ensure a cohesive look.
 
+#### Mobile
 ![(Get Involved Form Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support-form.png)
+
+#### Desktop
 
 ## Success page
 On completion of either form, a user is taken to this success page. This success page allows the user to know the information has been entered correctly and recorded by the Journey team. It features a button to return the user to the main homepage. This button has the same styling as the other submit buttons on the class information form and the volunteer form.
 
+#### Mobile
 ![(Success Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-success.png)
+
+#### Desktop
 ![(Success Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-success.png)
 
 ## Footer
 The footer is consistent across every page. It has the same colour palette as the header and navbar to ensure cohesian and includes the address for Journey and Journey's social media platforms. All of the social links have an ARIA label and open in a new page.
 
+#### Mobile
 ![(Footer Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-footer.png)
+
+#### Desktop
 ![(Footer Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-footer.png)
 
 # Future Features
