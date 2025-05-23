@@ -183,9 +183,9 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ## Index.html
 ![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
 ## Classes.html
-![(Classes Format Testing Mobile)]()
+![(Classes Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-classes-complete.png)
 ## Support.html
-![(Support Format Testing Mobile)]()
+![(Support Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-support.png)
 ## Success.html
 ![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
 
@@ -294,9 +294,9 @@ I also originally came up against contrast issues with my colour palette as ther
 
 #### Original button (failing contrast)
 ![(Original Button)](https://github.com/foster95/journey/blob/main/assets/images/button-original.png)
-![(New Button)](https://github.com/foster95/journey/blob/main/assets/images/button-new.png)
 
 #### New button (passing contrast)
+![(New Button)](https://github.com/foster95/journey/blob/main/assets/images/button-new.png)
 
 # Deployment
 This project used Github and Github Pages, and was deployed early on in the project, as soon as the structure of the site was created. Whilst using VS Code I used the source control panel to ensure that regular commits were made after every change. 
