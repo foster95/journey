@@ -168,18 +168,26 @@ Desktop | Hero image scales correctly, image with correct amount of padding and 
 Desktop XL | Hero image scales correctly, image with correct amount of padding and displaying cleanly. Navbar is fixed to the top of the screen and displays correctly, footer sits at bottom of page. Journey mission points expand to sit in three columns due to Flexbox properties centrally on the page. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of the page. All images load correctly. Class information expands into three columns due to flexbox properties with equal padding in display. Padding is correct across all paragraphs. Form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, form underneath scales to fill screen better, submit button stays central and fixed. | Navbar is fixed to top of the screen and displays correctly, footer sits at bottom of page. Padding is correct across all paragraphs, return to home button sits centrally and is fixed. | All correct across all pages as expected and built.
 
 # Device Format Testing - Mobile and Tablet
+## Index.html
 ![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
+## Classes.html
 ![(Classes Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-classes-complete.png)
+## Support.html
 ![(Support Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-support-complete.png)
+## Success.html
 ![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
 
 
 # Device Format Testing - Laptop and Desktop
+## Index.html
 ![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
-![(Classes Format Testing Laptop)](hhttps://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
+## Classes.html
+![(Classes Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
 ![(Classes Form Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes-form.png)
+## Support.html
 ![(Support Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-support.png)
-![(Success Format Testing Laptop)](hhttps://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
+## Success.html
+![(Success Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
 
 # Code Validation
 # HTML Validation
@@ -215,9 +223,13 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 
 # WAVE Testing
 ## Index.html
+![(WAVE Index)](hhttps://github.com/foster95/journey/blob/main/assets/images/wave-index.png)
 ## Classes.html
+![(WAVE Classes)](https://github.com/foster95/journey/blob/main/assets/images/wave-classes.png)
 ## Support.html
+![(WAVE Support)](https://github.com/foster95/journey/blob/main/assets/images/wave-support.png)
 ## Success.html
+![(WAVE Success)](https://github.com/foster95/journey/blob/main/assets/images/wave-success.png)
 
 ## Testing Errors and Improvements
 
