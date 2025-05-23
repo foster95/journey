@@ -654,7 +654,7 @@ footer {
 /* Media Query for x-large screens (1920px) */
 
 /* Equal text box padding on classes.html */
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1920px) {
   .children .info-textbox {
     padding-top: 16px;
   }
