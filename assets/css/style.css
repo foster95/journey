@@ -562,6 +562,14 @@ footer {
     margin-right: 3em;
   }
 
+  /* Class info text box styling */
+  .info-textbox {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
   /* Volunteers list section styling */
   .volunteer-choices {
     padding-left: 38px;
