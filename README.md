@@ -290,10 +290,11 @@ This fixed the error.
 ![(After Fix)](https://github.com/foster95/journey/blob/main/assets/images/bug-fix-after.png)
 
 ### Contrast
-I also originally came up against contrast issues with my colour palette as there was yellow in the header and different shades of blue as the body. Swapping the yellow for blue around and adopting the darker blue immediately fixed the contrast issue. The one place where I have not made a contrast change is for the buttons on the forms and the return home button on success.html. The only way I could ensure 0 contrast issues was to break the colour palette across the rest of the website. Instead I made the text bold, and I added a hover colour which was an inversion with a higher contrast score. This did not totally remove the contrast warning, but I feel is a suitable compromise that does not affect website readability, and only affects a very small portion of the website.
+I also originally came up against contrast issues with my colour palette as there was yellow in the header and different shades of blue as the body. Swapping the yellow for blue around and adopting the darker blue immediately fixed the contrast issue. I also ran into an issue with button contrast, and originally had an issue with readability on buttons. I changed the colours on these again to match the rest of the site and added a hover change in colour for some additional visual interest, as well as to confirm to users they had clicked in the right place. The orignal button and the new button can be found below:
 
-#### Button fix:
-![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/button-stasis.png)
+#### Original button (failing contrast)
+
+#### New button (passing contrast)
 
 # Deployment
 This project used Github and Github Pages, and was deployed early on in the project, as soon as the structure of the site was created. Whilst using VS Code I used the source control panel to ensure that regular commits were made after every change. 
