@@ -257,7 +257,7 @@ nav li {
   padding-right: 20px;
   font-size: 18px;
   background-color: var(--tertiary-color);
-  border: 2px solid var(--primary-color)
+  border: 2px solid var(--primary-color);
 }
 
 .join-button:hover {
@@ -298,8 +298,7 @@ nav li {
 #success-message a:hover {
   text-decoration: none;
   background-color: white;
-  color: var(--primary-color)
-
+  color: var(--primary-color);
 }
 
 /* Footer Styling */
@@ -350,7 +349,7 @@ footer {
     height: 300px;
   }
 
-/* Query to center signup form and class info form on small tablet screens */
+  /* Query to center signup form and class info form on small tablet screens */
   #signup-form,
   #class-info-form {
     margin-left: 40px;
@@ -361,7 +360,7 @@ footer {
 /* Media Query for tablet screens (768px) */
 
 @media screen and (min-width: 768px) {
-/* Query to push content under navigation bar */
+  /* Query to push content under navigation bar */
   main {
     margin-top: 200px;
   }
@@ -387,7 +386,7 @@ footer {
     margin-top: -2px;
   }
 
-/* Query to increase font size for readability */
+  /* Query to increase font size for readability */
   p {
     font-size: 20px;
   }
@@ -396,13 +395,13 @@ footer {
     font-size: 75px;
   }
 
-/* Query to make image responsive to tablet screens */
+  /* Query to make image responsive to tablet screens */
   .image-1 {
     width: 427px;
     height: 300px;
   }
 
-/* Query to put numbers section into a row */
+  /* Query to put numbers section into a row */
   #numbers {
     display: flex;
     flex-basis: 50px;
@@ -412,7 +411,7 @@ footer {
     justify-content: center;
   }
 
-/* Query to better space the numbers section */
+  /* Query to better space the numbers section */
   h3 {
     font-size: 62px;
     margin-top: 1px;
@@ -431,7 +430,7 @@ footer {
     font-size: 36px;
   }
 
-/* Make images on classes page responsive to screen size */
+  /* Make images on classes page responsive to screen size */
   .image-2 {
     width: 401px;
   }
@@ -449,19 +448,19 @@ footer {
     margin-right: 10em;
   }
 
-/* Query to increase font size for readability */
+  /* Query to increase font size for readability */
   .volunteer-choices {
     font-size: 20px;
   }
 
-/* Query to center sign up form and class info form on tablets */
+  /* Query to center sign up form and class info form on tablets */
   #signup-form,
   #class-info-form {
     margin-left: 90px;
     margin-right: 90px;
   }
 
-/* Footer styling to make font and icons larger on tablet screens */
+  /* Footer styling to make font and icons larger on tablet screens */
   #footer-info li {
     font-size: 20px;
   }
@@ -474,7 +473,7 @@ footer {
 /* Media Query for desktop screens (1200px) */
 
 @media screen and (min-width: 1200px) {
-/* Query to push content under navigation bar */
+  /* Query to push content under navigation bar */
   main {
     margin-top: 225px;
   }
@@ -484,7 +483,7 @@ footer {
     margin-right: 2rem;
   }
 
-/* Query to make hero-image responsive to larger screens */
+  /* Query to make hero-image responsive to larger screens */
   #hero-image {
     height: 430px;
   }
@@ -500,7 +499,7 @@ footer {
     margin: 0.5em;
   }
 
-/* Query to put numbers section into a row and look more appealing */
+  /* Query to put numbers section into a row and look more appealing */
   #numbers {
     display: flex;
     flex-basis: 50px;
@@ -520,14 +519,14 @@ footer {
     margin-right: 35px;
   }
 
-/* Make image size responsive to screens */
+  /* Make image size responsive to screens */
   .image-2,
   .image-3,
   .image-4 {
     width: 370px;
   }
 
-/* Class Group styling to stack on 1200px screens */
+  /* Class Group styling to stack on 1200px screens */
   .grouped-classes {
     display: flex;
   }
@@ -549,7 +548,7 @@ footer {
     margin-right: 3em;
   }
 
-/* Class info text box styling */
+  /* Class info text box styling */
   .info-textbox {
     padding-top: 15px;
     display: flex;
@@ -557,19 +556,18 @@ footer {
     position: relative;
   }
 
-/* Volunteers list section styling */
+  /* Volunteers list section styling */
   .volunteer-choices {
     padding-left: 38px;
   }
 
-/* Query to center sign up form and class info*/
-  #signup-form
-  #class-info-form {
+  /* Query to center sign up form and class info*/
+  #signup-form #class-info-form {
     margin-left: 215px;
     margin-right: 215px;
   }
 
-/* Footer styling to increase font size */
+  /* Footer styling to increase font size */
 
   #footer-info li {
     font-size: 22px;
@@ -583,12 +581,12 @@ footer {
 /* Media Query for large screens (1400px) */
 
 @media screen and (min-width: 1400px) {
-/* Query to make hero image responsive to larger screens */
+  /* Query to make hero image responsive to larger screens */
   #hero-image {
     height: 500px;
   }
 
-/* Query to put numbers section into a row and look more appealing */
+  /* Query to put numbers section into a row and look more appealing */
   #mission h2 {
     padding-top: 15px;
   }
@@ -602,7 +600,7 @@ footer {
     margin-top: 23px;
   }
 
-/* Make images responsive to screen size */
+  /* Make images responsive to screen size */
   .image-2 {
     width: 397px;
   }
@@ -615,7 +613,7 @@ footer {
     width: 410px;
   }
 
-/* Class Group styling to stack on 1400px screens */
+  /* Class Group styling to stack on 1400px screens */
   .grouped-classes {
     gap: 9px;
   }
@@ -632,10 +630,36 @@ footer {
     width: 436px;
   }
 
-/* Query to center sign up and class info form */
+  /* Query to center sign up and class info form */
   #signup-form,
   #class-info-form {
     margin-left: 300px;
     margin-right: 300px;
+  }
+}
+
+/* Media Query for x-large screens (1600px) */
+
+/* Equal text box padding on classes.html */
+@media screen and (min-width: 1600px) {
+  .children .info-textbox {
+    padding-top: 37px;
+  }
+
+  .adults .info-textbox {
+    padding-top: 35px;
+  }
+}
+
+/* Media Query for x-large screens (1920px) */
+
+/* Equal text box padding on classes.html */
+@media screen and (min-width: 1600px) {
+  .children .info-textbox {
+    padding-top: 16px;
+  }
+
+  .adults .info-textbox {
+    padding-top: 13px;
   }
 }
