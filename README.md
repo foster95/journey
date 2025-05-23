@@ -14,7 +14,7 @@ Journey is directly inspired by [Quest CIC](https://www.questsoultheatre.co.uk/)
 
 Journey reached out to me as they required a website which provided an overview of all classes, along with their contact details so that people could reach out to contact the company to sign up for classes. They also wanted to stress the fact that they are driven by commmunity and volunteer efforts, and they wanted to collect and encourage people to sign up to help with Journey's volunteer team.
 
-
+![amiresponsive](https://github.com/foster95/journey/blob/main/assets/images/am-i-responsive.png)
 Image from [amiresponsive](https://ui.dev/amiresponsive?url=https://foster95.github.io/journey)
 
 # Table of Contents
@@ -150,6 +150,9 @@ On completion of either form, a user is taken to this success page. This success
 
 ## Footer
 The footer is consistent across every page. It has the same colour palette as the header and navbar to ensure cohesian and includes the address for Journey and Journey's social media platforms. All of the social links have an ARIA label and open in a new page.
+
+![(Footer Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-footer.png)
+![(Footer Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-footer.png)
 
 # Future Features
 * Testimonials section - due to limitations with the project and that I wanted to build solely with vanilla html and not use Bootstrap, I was unable to build a carousel of testimonials. This would be the first immediate update once I have learned Javascript
@@ -295,7 +298,7 @@ Visual Studio Code
 * [Google Fonts](https://fonts.google.com/) - For importing font families
 * [Gemini AI](https://gemini.google.com/app) - For image generation across the project as well as some help on writing the copy
 * [W3Schools.com](https://www.w3schools.com/) - For general support, but particularly with regards to the hero image section of the website
-* The Love Running Project with Code Institute - 
+* The Love Running Project with Code Institute - For which was an inspiration and for which code was used on a few occasions
 * Jaqui_Alumna_lead from Slack - who provided a suggestion for a code snippet on the slack channel when I asked for assistance
 * [Favicon.io](https://favicon.io/) - For the favicon design
 
