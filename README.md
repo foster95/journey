@@ -22,6 +22,22 @@ Journey reached out to me as they required a website which provided an overview 
 * Brand Colours
 * Typography
 * Images
+3. Features
+4. Testing
+* Browser Testing
+* Responsive Testing
+* Device Format Testing - Mobile and Tablet
+* Device Format Testing - Laptop and Desktop
+5. Code Validation
+* HTML Validation
+* CSS Validation
+5. Lighthouse Testing
+6. WAVE Testing
+7. Testing Errors and Bugs
+8. Deployment
+9. Technologies Used
+10. Credits and References
+11. Final Acknowledgements 
 
 # UX
 ## User Stories
