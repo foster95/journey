@@ -217,6 +217,10 @@ nav li {
   padding-top: 2em;
 }
 
+#learn-more-classes p {
+  text-align: center;
+}
+
 /* List styling for support section */
 .volunteer-choices {
   padding-top: 3px;
@@ -224,6 +228,11 @@ nav li {
   padding-bottom: 10px;
   font-size: 18px;
   margin: 10px;
+}
+
+/* Styling for volunteer plug */
+.volunteer-plug {
+  text-align: center;
 }
 
 /*Signup form and class info form styling */
