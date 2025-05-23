@@ -259,19 +259,19 @@ nav li {
   padding: 5px;
   margin-left: 2em;
   margin-right: 2em;
-  color: white;
+  color: var(--primary-color);
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
   padding-right: 20px;
   font-size: 18px;
-  background-color: var(--tertiary-color);
+  background-color: white;
   border: 2px solid var(--primary-color);
 }
 
 .join-button:hover {
-  background-color: white;
-  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  color: white;
 }
 
 .text-input {
@@ -300,14 +300,14 @@ nav li {
 
 #success-message a {
   text-decoration: none;
-  background-color: var(--tertiary-color);
-  color: white;
+  background-color: white;
+  color: var(--primary-color);
 }
 
 #success-message a:hover {
   text-decoration: none;
-  background-color: white;
-  color: var(--primary-color);
+  background-color: var(--tertiary-color);
+  color: white;
 }
 
 /* Footer Styling */
