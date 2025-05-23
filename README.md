@@ -10,30 +10,33 @@ This project creates a simple, entry level website for Journey, a community led 
 ## About Journey
 Journey is a company that is based in London that provides drama classes for all ages, which aims to build confidence and foster relationships between attendees. Journey was created by one woman who stumbled into an improvisation class when she was going through a personal crisis and found a community that championed differences and individuality. She set up Journey the following year with the aim not being to create brlliant actors, but to build confidence and support anyone who is feeling a little lost and alone. 
 
-Journey is directly inspired by Quest CIC, a community led initiative by my friend, which provides drama workshops to those young and old solely with the aim of bringing together people who do not have any sense of community. 
+Journey is directly inspired by [Quest CIC](https://www.questsoultheatre.co.uk/), a community led initiative by my friend, which provides drama workshops to those young and old solely with the aim of bringing together people who do not have any sense of community. 
 
 Journey reached out to me as they required a website which provided an overview of all classes, along with their contact details so that people could reach out to contact the company to sign up for classes. They also wanted to stress the fact that they are driven by commmunity and volunteer efforts, and they wanted to collect and encourage people to sign up to help with Journey's volunteer team.
 
+
+Image from [amiresponsive](https://ui.dev/amiresponsive?url=https://foster95.github.io/journey)
+
 # Table of Contents
 1. [UX](#ux)
-- [User Stories](#user-stories)
+   - [User Stories](#user-stories)
 2. [Design](#design)
-- [Wireframes](#wireframes)
-- [Brand Colours](#brand-colours)
-- [Typography](#typography)
-- [Images](#images)
+   - [Wireframes](#wireframes)
+   - [Brand Colours](#brand-colours)
+   - [Typography](#typography)
+   - [Images](#images)
 3. [Features](#features)
 4. [Testing](#testing)
-- [Browser Testing](#browser-testing)
-- [Responsive Testing](#responsive-testing)
-- [Device Format Testing for Mobile and Tablet](#device-format-testing-for-mobile-and-tablet)
-- [Device Format Testing for Laptop and Desktop](#device-format-testing-for-laptop-and-desktop)
+   - [Browser Testing](#browser-testing)
+   - [Responsive Testing](#responsive-testing)
+   - [Device Format Testing for Mobile and Tablet](#device-format-testing-for-mobile-and-tablet)
+   - [Device Format Testing for Laptop and Desktop](#device-format-testing-for-laptop-and-desktop)
 5. [Code Validation](#code-validation)
-- [HTML Validation](#html-validation)
-- [CSS Validation](#css-validation)
+   - [HTML Validation](#html-validation)
+   - [CSS Validation](#css-validation)
 5. [Lighthouse Testing](#lighthouse-testing)
 6. [WAVE Testing](#wave-testing)
-7. [Testing Errors and Bugs](#testing-errors-and-bugs)
+7. [Testing Errors and Improvements](#testing-errors-and-improvements)
 8. [Deployment](#deployment)
 9. [Technologies Used](#technologies-used)
 10. [Credits and References](#credits-and-references)
@@ -55,10 +58,9 @@ The website has been created across three distinct pages, covering seperate aspe
 Every page follows the same page structure and brand colours ensuring a positive user experience across every page with easy access to return to the homepage.
 
 ## Wireframes
-All wireframes were generated using Balsamiq:
+All wireframes were created using Balsamiq:
 
 ![Mobile Wireframes](https://github.com/foster95/journey/blob/main/assets/images/mobile-wireframes.png)
-
 ![Desktop Wireframes](https://github.com/foster95/journey/blob/main/assets/images/desktop-wireframes.png)
 
 ## Brand Colours
@@ -79,9 +81,9 @@ The colours are not quite complimentary, but sit very close to each other on the
 ## Typography
 All font came from the Google Font library.
 
-Barrio - was used for all headers and for the site logo. Bario is one of the first fonts that is suggesed by Google for a playful font that still has good readibility across all platforms.
-
-Archivo - was used for all other secondary text. Archivo is a sans-serif font that is very simple and modern to read which contrasts nicely with the more decorative Bario font.
+- [Barrio](https://fonts.google.com/specimen/Barrio?preview.text=Journey&categoryFilters=Feeling:%2FExpressive%2FPlayful) - was used for all headers and for the site logo. Bario is one of the first fonts that is suggesed by Google for a playful font that still has good readibility across all platforms.
+- [Archivo](https://fonts.google.com/specimen/Archivo?preview.text=Journey&query=Omnibus-Type) - was used for all other secondary text. Archivo is a sans-serif font that is very simple and modern to read which contrasts nicely with the more decorative Bario font.
+- [Font Awesome](https://fontawesome.com/icons) - was used for social media icons in the footer
 
 ## Images
 All images used across the site were generated using Gemini AI through Google, with various prompts such as: 
@@ -144,7 +146,6 @@ Underneath the support section there is a form which requires the user to provid
 On completion of either form, a user is taken to this success page. This success page allows the user to know the information has been entered correctly and recorded by the Journey team. It features a button to return the user to the main homepage. This button has the same styling as the other submit buttons on the class information form and the volunteer form.
 
 ![(Success Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-success.png)
-
 ![(Success Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-success.png)
 
 ## Footer
@@ -241,14 +242,16 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 
 ## Testing Errors and Improvements
 ### Classes.html
-A minor error was discovered on the classes.html where the boxes were not sitting in allignment on desktop screens and wider. To counter this I placed this element into an individual div, with the class "info-textbox". I wrote a media query for screens 1200px and wider:
+A minor error was discovered on the classes.html where the boxes housing class information were not sitting in allignment on desktop screens and wider. To counter this I placed this element into an individual div, with the class "info-textbox". I wrote a media query for screens 1200px and wider:
 
-  .info-textbox {
+```
+.info-textbox {
     padding-top: 15px;
     display: flex;
     flex-direction: column;
     position: relative;
   }
+  ```
 
 This fixed the error.
 
@@ -259,34 +262,46 @@ This fixed the error.
 ![(After Fix)](https://github.com/foster95/journey/blob/main/assets/images/bug-fix-after.png)
 
 ### Contrast
-I also originally came up against contrast issues with my colour palette as I yellow in the header and blue as the body, but by swapping this around the contrast issue was immediately minimised. The one place where I have not made a contrast change is for the buttons on the forms and the return home button on success.html. The only way I could ensure 0 contrast issues was to break the colour palette across the rest of the website. Instead I made the text bold, and I added a hover colour which was an inversion with a higher contrast score. This did not minimise the contrast warning, but I feel is a suitable compromise that does not affect website readability, and only affects a very small portion of the website.
+I also originally came up against contrast issues with my colour palette as there was yellow in the header and different shades of blue as the body. swapping this around and adopting the darker blue immediately the contrast issue . The one place where I have not made a contrast change is for the buttons on the forms and the return home button on success.html. The only way I could ensure 0 contrast issues was to break the colour palette across the rest of the website. Instead I made the text bold, and I added a hover colour which was an inversion with a higher contrast score. This did not minimise the contrast warning, but I feel is a suitable compromise that does not affect website readability, and only affects a very small portion of the website.
 
 #### Button fix:
 ![(Button Stasis)](https://github.com/foster95/journey/blob/main/assets/images/button-stasis.png)
 
 # Deployment
+This project used Github and Github Pages, and was deployed early on in the project, as soon as the structure of the site was created. Whilst using VS Code I used the source control panel to ensure that regular commits were made after every change. 
+
+### Hosting through Github Pages
+1. Go to Github, and select repository (Journey)
+2. Settings > Pages
+3. Ensure the following settings are applied
+   - Source: 'Deploy from a branch'
+   - Branch: 'Main' and 'Root'
+   - Press save
+4. Allow Github Pages a few minutes to deploy. This can then be found on the right hand side of the dashboard.
 
 # Technologies Used
 ## Languages 
 HTML and CSS only
 
 ## Technology
-Github and Gitpod
+Github and Github Pages
 Balsamiq
 Font Awesome
+Visual Studio Code
 
 # Credits and Reference
 * Mercades Yearly - The originator of Quest CIC which was a massive inspiration for the entire project
-* Coolors - For colour palette generation
-* Gemini AI - For image generation across the project as well as some help on writing the copy
-* W3Schools.com - For general support, but particularly with regards to the hero image section of the website
+* [Coolors](https://coolors.co/) - For colour palette generation
+* [Google Fonts](https://fonts.google.com/) - For importing font families
+* [Gemini AI](https://gemini.google.com/app) - For image generation across the project as well as some help on writing the copy
+* [W3Schools.com](https://www.w3schools.com/) - For general support, but particularly with regards to the hero image section of the website
 * The Love Running Project with Code Institute - 
 * Jaqui_Alumna_lead from Slack - who provided a suggestion for a code snippet on the slack channel when I asked for assistance
-* Favicon.io - For the favicon design
+* [Favicon.io](https://favicon.io/) - For the favicon design
 
 # Acknowledgement and thanks
 * Code Institute Slack Community - For helping me see something that was so bleeding obvious if I hadn't been so code blind
-* Spencer Baribal - The greatest mentor in the world, who was endlessly kind, patient and funny and gave me the confidence that I was doing the right thing and who helped me in a true hour of need
+* Spencer Barriball - The greatest mentor in the world, who was endlessly kind, patient and funny and gave me the confidence that I was doing the right thing and who helped me in a true hour of need
 * My parents - For being brutal as ever and telling me to crack on with it and get the job done, as well as provide tirimisu and flowers when I needed it
 * My fiancee Jon - who stepped up whenever I needed him and told me on more than one occasion that he would body double me till 3am if it meant I got the project done.
 
