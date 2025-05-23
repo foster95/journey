@@ -126,14 +126,24 @@ This section provides a brief overview of all ofl the classes available. It had 
 
 In order to make this section responsive to different screens, the image size widens and expands for larger screens and shrinks for smaller screens. The text boxes are styled with flex boxes, allowing them to stack on smaller screens and expand into three individual columns on larger screens. 
 
+![(Classes Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes.png)
+![(Classes Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes.png)
+
 ## Classes information form
 Underneath the classes section, there is a form which requires the user to provide their details (name, email, phone number) so that a member of the Journey team can contact them about each relevant class. All of the fields must be filled to allow submission, and on submit takes the user to a success page. This is the same success page as is used for the volunteer form page. The form is styled with the brand colours, and continue to use rounded borders to provide a sympathetic experience across the site. The submission button has styling to change colour when a user highlights over the submit button, further confirming they have submitted correctly.
+
+![(Classes Information Form Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes-form.png)
 
 ## Support section
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
 
+![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support.png)
+
+
 ## Get involved form
 Underneath the support section there is a form which requires the user to provide their details. Unlike the classes information form, this form does not require a phone number. This is because Journey want to talk to everyone who is potentially thinking of joining their classes, but they are more keen to simply gather information for the volunteers so they can contact them via email. All of the fields must be filled to allow submission and on submit takes the user to a success page. This is the same sucess page as is used on the class information page. The form has identical styling to the classes information form, to ensure a cohesive look.
+
+![(Get Involved Form Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support-form.png)
 
 ## Success page
 On completion of either form, a user is taken to this success page. This success page allows the user to know the information has been entered correctly and recorded by the Journey team. It features a button to return the user to the main homepage. This button has the same styling as the other submit buttons on the class information form and the volunteer form.
@@ -187,9 +197,10 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ## Index.html
 ![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
 ## Classes.html
-![(Classes Format Testing Laptop)]()
+![(Classes Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
+![(Classes Form Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes-form.png)
 ## Support.html
-![(Support Format Testing Laptop)]()
+![(Support Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-support.png)
 ## Success.html
 ![(Success Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
 
