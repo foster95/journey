@@ -215,23 +215,24 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ## Index.html
 ![(Index Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-index-complete.png)
 ## Classes.html
-![(Classes Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-testing-tablet-classes-complete.png)
+![(Classes Format Testing Mobile)]()
 ## Support.html
-![(Support Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-support.png)
+![(Support Format Testing Mobile)]()
 ## Success.html
-![(Success Format Testing Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-tablet-testing-success.png)
+![(Success Format Testing Mobile)]()
 
 
 # Device Format Testing for Laptop and Desktop
 ## Index.html
 ![(Index Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-index.png)
+![(Index Who Are We Format Testing Laptop)]()
 ## Classes.html
 ![(Classes Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes.png)
-![(Classes Form Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-classes-form.png)
+![(Classes Form Format Testing Laptop)]()
 ## Support.html
-![(Support Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-support.png)
+![(Support Format Testing Laptop)]()
 ## Success.html
-![(Success Format Testing Laptop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-testing-success.png)
+![(Success Format Testing Laptop)]()
 
 # Code Validation
 # HTML Validation
