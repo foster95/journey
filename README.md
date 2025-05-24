@@ -144,7 +144,7 @@ In order to make this section responsive to different screens, the image size wi
 Underneath the classes section, there is a form which requires the user to provide their details (name, email, phone number) so that a member of the Journey team can contact them about each relevant class. All of the fields must be filled to allow submission, and on submit takes the user to a success page. This is the same success page as is used for the volunteer form page. The form is styled with the brand colours, and continue to use rounded borders to provide a sympathetic experience across the site. The submission button has styling to change colour when a user highlights over the submit button, further confirming they have submitted correctly.
 
 ### Mobile
-![(Classes Information Form Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-classes-form.png)
+![(Classes Information Form Mobile)]()
 
 ### Desktop
 ![(Classes Information Form Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-classes-form.png)
@@ -153,7 +153,7 @@ Underneath the classes section, there is a form which requires the user to provi
 This section provides a brief overview of the volunteer opportunities that are available within Journey. As a community driven group, the majority of support for Journey comes from volunteers and therefore this was a crucial addition for the website. This section includes an unorderered list of all of the different volunteer opportunities available and is followed by a volunteer form
 
 ### Mobile
-![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/mobile-support.png)
+![(Support Mobile)]()
 
 ### Desktop
 ![(Support Desktop)](https://github.com/foster95/journey/blob/main/assets/images/desktop-support.png)
@@ -249,31 +249,31 @@ Desktop XL | Hero image scales correctly, image with correct amount of padding a
 ![(CSS Validation)](https://github.com/foster95/journey/blob/main/assets/images/css-validation.png)
 
 # Lighthouse Testing
-## Index.html - Mobile
+### Index.html - Mobile
 ![(Index Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-index.png)
-## Index.html - Desktop
+### Index.html - Desktop
 ![(Index Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-index.png)
-## Classes.html - Mobile
+### Classes.html - Mobile
 ![(Classes Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-classes.png)
-## Classes.html - Desktop
+### Classes.html - Desktop
 ![(Classes Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-classes.png)
-## Support.html - Mobile
+### Support.html - Mobile
 ![(Support Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-support.png)
-## Support.html - Desktop
+### Support.html - Desktop
 ![(Support Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-support.png)
-## Success.html - Mobile
-![(Success Mobile)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-mobile-success.png)
-## Success.html - Desktop
-![(Sucess Desktop)](https://github.com/foster95/journey/blob/main/assets/images/lighthouse-desktop-success.png)
+### Success.html - Mobile
+![(Success Mobile)]()
+### Success.html - Desktop
+![(Sucess Desktop)]()
 
 # WAVE Testing
-## Index.html
+### Index.html
 ![(WAVE Index)](https://github.com/foster95/journey/blob/main/assets/images/wave-index.png)
-## Classes.html
+### Classes.html
 ![(WAVE Classes)](https://github.com/foster95/journey/blob/main/assets/images/wave-classes.png)
-## Support.html
+### Support.html
 ![(WAVE Support)](https://github.com/foster95/journey/blob/main/assets/images/wave-support.png)
-## Success.html
+### Success.html
 ![(WAVE Success)](https://github.com/foster95/journey/blob/main/assets/images/wave-success.png)
 
 ## Testing Errors and Improvements
