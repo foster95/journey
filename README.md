@@ -363,6 +363,7 @@ Visual Studio Code
 * [W3Schools.com](https://www.w3schools.com/) - For general support, but particularly with regards to the hero image section of the website
 * The Love Running Project with Code Institute - For which was an inspiration and for which code was used on a few occasions
 * Jaqui_Alumna_lead from Slack - who provided a suggestion for a code snippet on the slack channel when I asked for assistance
+* Spencer Barriball - Who provided a small snippet of code and script to ensure that I could redirect to my success page correctly.
 * [Favicon.io](https://favicon.io/) - For the favicon design
 
 # Acknowledgement and thanks
